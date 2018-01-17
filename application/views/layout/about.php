@@ -5,10 +5,12 @@
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
+                
                 <h1 class="section-heading mb-4">
                   <span class="section-heading-upper">About Our Café</span>
                 </h1>
-                <p>Founded in <em>2018</em> by the <em>STI MAWD students</em>, our  café is not only about coffee but also about foods and merchandises that we want to promote. This café was inspired by our own imaginations and like other cafe here in the Philippines, we have our own mission and vision. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our café.</p>
+                <div class="centeralign">
+                <p>Founded in <em>2018</em> by the <em>STI MAWD students</em>, our  café is not only about coffee but also about foods and merchandises that we want to promote. This café was inspired by our own imaginations and like other cafe here in the Philippines, we have our own mission and vision. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our café.</p></div>
                 <h2>
                   <span class="section-heading-upper">Mission</span>
                 </h2>
