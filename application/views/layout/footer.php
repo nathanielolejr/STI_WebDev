@@ -1,7 +1,7 @@
  
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 small">2018 Foreign Café and Snack, LLC "Marshweet Café" and logo are registered trademarsk of Foreign Marshweet Café </p>
       </div>
     </footer>
 
