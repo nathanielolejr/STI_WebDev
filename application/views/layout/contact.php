@@ -4,8 +4,8 @@
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Come and Visit</span>
-                <span class="section-heading-lower">We're Open During</span>
+                <span class="section-heading-lower">Come and Visit</span>
+                <span class="section-heading-upper">We're Open During</span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                 <li class="list-unstyled-item list-hours-item d-flex">
@@ -21,19 +21,15 @@
                   <span class="ml-auto">7:00 AM to 8:00 PM</span>
                 </li>
               </ul>
+              <span class="section-heading-upper">Location</span>
               <p class="address mb-5">
                 <em>
                   <strong>Marietta Tower, Echiverri Street</strong>
                   <br>
                   Iligan City, Lanao del Norte
                 </em>
-                <br>
-                <br>
-                <br>
-                
-                <em>
-                Location:
-                <div id="map" style="width:400px;height:400px;background:yellow"></div>
+                              
+                <div id="map" style="width:400px;height:400px;background:black"></div>
                 <script>
                 function myMap() {
                 var mapOptions = {
