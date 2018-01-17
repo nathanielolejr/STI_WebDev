@@ -31,7 +31,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/products-02.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/4e1b2a8955f677f914c515f3649cb523--waffle-toppings-crepe.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Sprinkled with toppings that will complete the formula of perfection.</p>
@@ -52,7 +52,7 @@
                 </h2>
               </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Chocolate-shake-mint-garnish_70_600x600.jpg');?>" alt="">
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Smoothie.jpg');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0"> When it comes to ice cream treats, our milkshakes and smoothie are the coolest. They're cold and creamy and, best of all.A delight creamy milkshakes and smoothie to pick up on those hot days. Whether it is a Cafe Latte Milkshake,Fresh strawbery Milk shakes,Chocolate Malt Shake, Chocolate-Peanut Butter Banana shake,S'More shake,Berry Banana Smoothie.</p>
@@ -73,7 +73,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/3808bl.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Chains.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">Buy certain of products to get one of this merchandise for free.</p>
