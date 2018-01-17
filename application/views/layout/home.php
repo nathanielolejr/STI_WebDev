@@ -3,11 +3,9 @@
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php echo base_url('themes/img/intro.jpg'); ?>" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Marshweet Cafe is Always a GOOD CHOICE</span>
-          
+            <h2 class="section-heading mb-4">Enjoy the serene sensation 
             </h2>
-            <p class="mb-3">Relax and fresh your mind with Marshweet Cafe
+            <p class="mb-3">Relax and refresh your mind with Marshweet Café
             </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
@@ -26,7 +24,7 @@
                 <span class="section-heading-upper">Our Promise</span>
                 <span class="section-heading-lower">To You</span>
               </h2>
-              <p class="mb-0">is to provide a good service with a friendly atmosphere that can relax your mind and tummy that will satisfy your palate.</p>
+              <p class="mb-0">Provide a good service with a friendly atmosphere that can relax your mind and tummy that will satisfy your palate.</p>
             </div>
           </div>
         </div>
