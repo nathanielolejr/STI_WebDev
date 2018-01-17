@@ -13,9 +13,9 @@
                   <span class="section-heading-upper">Mission</span>
                 </h3>
                 <p>The Marshweet’s main objective is to produce a product with good qualities and to promote their cafe here in Iligan city, and to inspire the youth to be a successful entrepreneur in the future.</p>
-                <h4>
+                <h3>
                   <span class="section-heading-upper">Vision</span>
-                </h4>
+                </h3>
                 <p>The vision of Marshweet is to become well-known in cafe and manufacturer field not just in the Philippines but also in other countries with the superior confidence in becoming successful.</p>
               </div>
             </div>
