@@ -13,7 +13,7 @@
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
               <p class =  "centeralign">
-              <p class="mb-0">Taste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, Latte, Mocha, Espresso, american or something as simple as a cup of specialty sourced black coffee.</p>  
+              <p class="mb-0">Taste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Cappuccino, Latte, Espresso, american or something as simple as a cup of specialty sourced black coffee.</p>  
             </p>
           </div>
         </div>
