@@ -44,7 +44,6 @@
               <h2 class="section-heading mb-5">
                 <span class="section-heading-upper">Location</span>
               </h2>
-
               <p class="address mb-5">
                 <em>
                   Marietta Tower, Echiverri Street
