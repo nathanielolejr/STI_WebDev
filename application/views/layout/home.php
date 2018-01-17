@@ -3,10 +3,9 @@
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php echo base_url('themes/img/intro.jpg'); ?>" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-          
+            <h2 class="section-heading mb-4">Enjoy the serene sensation 
             </h2>
-            <p class="mb-3">Relax and fresh your mind with Marshweet Café
+            <p class="mb-3">Relax and refresh your mind with Marshweet Café
             </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
