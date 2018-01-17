@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MarshSweet Cafe</title>
+    <title>MarshSweet Café</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('themes/css/bootstrap.min.css'); ?>" rel="stylesheet">
