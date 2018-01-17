@@ -48,14 +48,14 @@
               <div class="bg-faded p-5 d-flex ml-auto rounded">
                 <h2 class="section-heading mb-0">
                   <span class="section-heading-upper">From The Philippines</span>
-                  <span class="section-heading-lower">Shakes</span>
+                  <span class="section-heading-lower">Shakes &amp; Smoothie </span>
                 </h2>
               </div>
             </div>
             <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/products-03.jpg');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
-                <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
+                <p class="mb-0"> When it comes to ice cream treats, our milkshakes and smoothie are the coolest. They're cold and creamy and, best of all.A delight creamy milkshakes and smoothie to pick up on those hot days. Whether it is a Cafe Latte Milkshake,Fresh strawbery Milk shakes,Chocolate Malt Shake, Chocolate-Peanut Butter Banana shake,S'More shake,Berry Banana Smoothie.</p>
               </div>
             </div>
           </div>
