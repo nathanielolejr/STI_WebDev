@@ -28,6 +28,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/about');
 		$this->load->view('layout/products');
 
-
 	}
 }
