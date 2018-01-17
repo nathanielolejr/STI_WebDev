@@ -15,7 +15,7 @@
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/Menu');?>">Menu</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/About');?>">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/contact');?>">Contact Us</a>

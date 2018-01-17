@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>MarshSweet Cafe</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('themes/css/bootstrap.min.css'); ?>" rel="stylesheet">

@@ -32,7 +32,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
-		$this->load->view('layout/about');
+		$this->load->view('layout/menu');
 		$this->load->view('layout/footer');
 	}
 	public function about()
@@ -40,7 +40,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
-		$this->load->view('layout/products');
+		$this->load->view('layout/about');
 		$this->load->view('layout/footer');
 	}
 	public function contact()
@@ -48,7 +48,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
-		$this->load->view('layout/store');
+		$this->load->view('layout/contact');
 		$this->load->view('layout/footer');
 	}
 }
