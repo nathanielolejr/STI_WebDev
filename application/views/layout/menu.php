@@ -5,14 +5,14 @@
             <div class="bg-faded p-5 d-flex ml-auto rounded">
               <h2 class="section-heading mb-0">
                 <span class="section-heading-upper">Blended to Perfection</span>
-                <span class="section-heading-lower">Coffees &amp; Teas</span>
+                <span class="section-heading-lower">Coffees</span>
               </h2>
             </div>
           </div>
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/products-01.jpg');?>" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
+              <p class="mb-0">Taste our rich flavorable dessert, featuring locally roasted coffee beans.Also, we take pride to our works.Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, Latte, Mocha, Espresso, american or something as simple as a cup of specialty sourced black coffee.</p>
             </div>
           </div>
         </div>
