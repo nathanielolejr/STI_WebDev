@@ -9,8 +9,8 @@
                   <span class="section-heading-upper">Coffee, Foods and Merchandises</span>
                   <span class="section-heading-lower">About Our Cafe</span>
                 </h2>
-                <p>Founded in 2018 by the STI MAWD students, our  cafe is not only about coffee but also about foods and merchandises that we want to promote. This cafe was inspired by our own imaginations and like other cafe here in the Philippines, we have our own mission and vision. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-                <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
+                <p>Founded in <em>2018</em> by the <em>STI MAWD students</em>, our  cafe is not only about coffee but also about foods and merchandises that we want to promote. This cafe was inspired by our own imaginations and like other cafe here in the Philippines, we have our own mission and vision. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
+                
               </div>
             </div>
           </div>
