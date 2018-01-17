@@ -9,7 +9,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/0921863.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/products-01.jpg');?>" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
               <p class =  "centeralign">
