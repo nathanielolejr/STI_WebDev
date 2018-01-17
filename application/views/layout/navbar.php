@@ -7,18 +7,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url();?>">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/Menu');?>">Menu</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/About');?>">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/contact');?>">Contact Us</a>
             </li>
           </ul>
         </div>
