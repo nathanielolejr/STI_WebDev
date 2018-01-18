@@ -5,8 +5,8 @@
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">Enjoy the serene sensation 
             </h2>
-            <p class="mb-3">Relax and refresh your mind with Marshweet Café
-            </p>
+            <i class="mb-3">You love our cafe. We love our guest.
+            </i>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/contact');?>">Visit Us Today!</a>
             </div>

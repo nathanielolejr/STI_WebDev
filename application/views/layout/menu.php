@@ -56,7 +56,7 @@
             <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Toppings.jpg ');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
-                <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a Fresh strawbery Milk shake with cherry on top, Vanilla, Mocha, Melted Chocolate, Oreo, Banana milk shake. Sprinkled with toppings that will complete the formula of perfection.</p>
+                <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a fresh Strawbery Milkshake with marshmallow on top, Camarel Marshmallow Milkshake, Cookies N Cream Milkshake, Toasted Marshmallow Peanut Butter Milkshake, Banana Milkshake and Vanilla Malt Milkshake. Sprinkled with toppings that will complete the formula of perfection.</p>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Merchandise.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">Buy certain of products to get one of this merchandise for free.</p>
+              <p class="mb-0">Buy certain products to get one of this merchandise for free.</p>
             </div>
           </div>
         </div>
