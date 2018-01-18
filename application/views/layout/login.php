@@ -32,10 +32,10 @@
                 	
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text">
-                        <h1>Come &amp; Join Us Now!</h1>
+                        <h1>Bootstrap Login &amp; Register Forms</h1>
                         <div class="description">
                         	<p>
-	                         I Love Marshweet
+	                         ADD SOMETHING HERE
                         	</p>
                         </div>
                     </div>
@@ -51,27 +51,22 @@
                 
                 <div class="row register-form">
                     <div class="col-sm-4 col-sm-offset-1">
-						<form role="form" action="" method="post" class="r-form">
+						<form role="form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
 	                    	<div class="form-group">
-	                    		<label class="sr-only" for="r-form-first-name">First name</label>
-	                        	<input type="text" name="r-form-first-name" placeholder="First name..." class="r-form-first-name form-control" id="r-form-first-name">
+	                    		<label class="sr-only" for="fname">First name</label>
+	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label class="sr-only" for="r-form-last-name">Last name</label>
-	                        	<input type="text" name="r-form-last-name" placeholder="Last name..." class="r-form-last-name form-control" id="r-form-last-name">
+	                        	<label class="sr-only" for="lname">Last name</label>
+	                        	<input type="text" name="lname" placeholder="Last name..." class="lname form-control" id="lname">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label class="sr-only" for="r-form-email">Email</label>
-	                        	<input type="text" name="r-form-email" placeholder="Email..." class="r-form-email form-control" id="r-form-email">
+	                        	<label class="sr-only" for="email">Email</label>
+	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email">
 	                        </div>
-	                        <div class="form-group">
-	                        	<label class="sr-only" for="r-form-password">Password</label>
-	                        	<input type="password" name="r-form-password" placeholder="Password..." class="r-form-password form-control" id="r-form-password">
-	                        </div>
-	                        <div class="form-group">
-	                        	<label class="sr-only" for="r-form-about-yourself">About yourself</label>
-	                        	<textarea name="r-form-about-yourself" placeholder="About yourself..." 
-	                        				class="r-form-about-yourself form-control" id="r-form-about-yourself"></textarea>
+							<div class="form-group">
+	                        	<label class="sr-only" for="password">Password</label>
+	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass">
 	                        </div>
 				            <button type="submit" class="btn">Sign me up!</button>
 						</form>
@@ -103,18 +98,14 @@
                 
                 <div class="row login-form">
                     <div class="col-sm-4 col-sm-offset-1">
-
-                    	 <?php if(isset($_SESSION)) {
-        						echo $this->session->flashdata('flash_data');
-  						  } ?>
-						<form role="form" action="<?php echo base_url('auth/login') ?>" method="post" class="l-form">
+						<form role="form" action="" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
-	                        	<input type="text" name="username" placeholder="Username..." class="l-form-username form-control" id="l-form-username">
+	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username">
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
-	                        	<input type="password" name="password" placeholder="Password..." class="l-form-password form-control" id="l-form-password">
+	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="password">
 	                        </div>
 				            <button type="submit" class="btn">Sign in!</button>
 				    	</form>
@@ -181,4 +172,4 @@
 
     </body>
 
-</html>
+</html>		
