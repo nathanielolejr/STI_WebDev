@@ -47,7 +47,7 @@
             <div class="product-item-title d-flex">
               <div class="bg-faded p-5 d-flex ml-auto rounded">
                 <h2 class="section-heading mb-0">
-                  <span class="section-heading-upper">From The Philippines</span>
+                  <span class="section-heading-upper">Creamy and Tasty</span>
                   <span class="section-heading-lower">Shakes &amp; Toppings</span>
                 </h2>
               </div>
