@@ -9,7 +9,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/products-01.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/coffee.jpg');?>" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
               <p class =  "centeralign">
@@ -48,14 +48,14 @@
               <div class="bg-faded p-5 d-flex ml-auto rounded">
                 <h2 class="section-heading mb-0">
                   <span class="section-heading-upper">From The Philippines</span>
-                  <span class="section-heading-lower">Shakes &amp; Smoothie </span>
+                  <span class="section-heading-lower">Shakes</span>
                 </h2>
               </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Smoothie.jpg');?>" alt="">
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/shakes.jpg');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
-                <p class="mb-0"> When it comes to ice cream treats, our milkshakes and smoothie are the coolest. They're cold and creamy and, best of all.A delight creamy milkshakes and smoothie to pick up on those hot days. Whether it is a Cafe Latte Milkshake,Fresh strawbery Milk shakes,Chocolate Malt Shake, Chocolate-Peanut Butter Banana shake,S'More shake,Berry Banana Smoothie.</p>
+                <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a Fresh strawbery Milk shake with cherry on top, Vanilla, Mocha, Melted Chocolate, Oreo, Banana milk shake.</p>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="bg-faded p-5 d-flex mr-auto rounded">
               <h2 class="section-heading mb-0">
                 <span class="section-heading-upper">Asians Best</span>
-                <span class="section-heading-lower">Merchandises</span>
+                <span class="section-heading-lower">Merchandise</span>
               </h2>
             </div>
           </div>
