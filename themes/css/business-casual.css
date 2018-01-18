@@ -24,8 +24,8 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
@@ -38,9 +38,18 @@ p {
 }
 
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 100;
   line-height: 4rem;
+  text-align: left;
+
+}
+
+.site-heading .site-heading-lower2 {
+  font-size: 10rem;
+  font-weight: 100;
+  line-height: 4rem;
+  text-align: left;
 }
 
 .page-section {
