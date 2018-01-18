@@ -6,17 +6,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap Login Form Template</title>
+        <title>Bootstrap Login &amp; Register Templates</title>
 
-    
-        <link rel="stylesheet" href="<?php echo base_url('http://fonts.googleapis.com/css?family=Roboto:400,100,300,500');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/css/bootstraplogin.min.css');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/css/font-awesome.min.css');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/css/form-elements.css');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/css/style.css');?>">
-        
+        <!-- CSS -->
+		<link rel="stylesheet" href="<?php echo base_url('themes/extend/bootstrap.min.css');?>">
+		<link rel="stylesheet" href="<?php echo base_url('themes/extend/form-elements.css');?>">
+        <link rel="stylesheet" href="<?php echo base_url('themes/extend/style.css');?>">
 
-        <link rel="shortcut icon" href="<?php echo base_url('themes/img/favicon.png');?>">
+	
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('themes/img/apple-touch-icon-144-precomposed.png');?>">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('themes/img/apple-touch-icon-114-precomposed.png');?>">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('themes/img/apple-touch-icon-72-precomposed.png');?>">
@@ -28,65 +28,147 @@
 
         <!-- Top content -->
         <div class="top-content">
-            
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3 form-box">
-                            <div class="form-top">
-                                <div class="form-top-left">
-                                    <h3>Login to our site</h3>
-                                    <p>Enter your username and password to log on:</p>
-                                </div>
-                                <div class="form-top-right">
-                                    <i class="fa fa-lock"></i>
-                                </div>
-                            </div>
-                            <div class="form-bottom">
-                                <form role="form" action="" method="post" class="login-form">
-                                    <div class="form-group">
-                                        <label class="sr-only" for="form-username">Username</label>
-                                        <input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="form-password">Password</label>
-                                        <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
-                                    </div>
-                                    <button type="submit" class="btn">Sign in!</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3 social-login">
-                            <h3>...or login with:</h3>
-                            <div class="social-login-buttons">
-                                <a class="btn btn-link-2" href="#">
-                                    <i class="fa fa-facebook"></i> Facebook
-                                </a>
-                                <a class="btn btn-link-2" href="#">
-                                    <i class="fa fa-twitter"></i> Twitter
-                                </a>
-                                <a class="btn btn-link-2" href="#">
-                                    <i class="fa fa-google-plus"></i> Google Plus
-                                </a>
-                            </div>
+        	<div class="container">
+                	
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text">
+                        <h1>Bootstrap Login &amp; Register Forms</h1>
+                        <div class="description">
+                        	<p>
+	                         ADD SOMETHING HERE
+                        	</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+                
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 show-forms">
+                    	<span class="show-register-form active">Register</span> 
+                    	<span class="show-forms-divider">/</span> 
+                    	<span class="show-login-form">Login</span>
+                    </div>
+                </div>
+                
+                <div class="row register-form">
+                    <div class="col-sm-4 col-sm-offset-1">
+						<form role="form" action="" method="post" class="r-form">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="r-form-first-name">First name</label>
+	                        	<input type="text" name="r-form-first-name" placeholder="First name..." class="r-form-first-name form-control" id="r-form-first-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-last-name">Last name</label>
+	                        	<input type="text" name="r-form-last-name" placeholder="Last name..." class="r-form-last-name form-control" id="r-form-last-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-email">Email</label>
+	                        	<input type="text" name="r-form-email" placeholder="Email..." class="r-form-email form-control" id="r-form-email">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-about-yourself">About yourself</label>
+	                        	<textarea name="r-form-about-yourself" placeholder="About yourself..." 
+	                        				class="r-form-about-yourself form-control" id="r-form-about-yourself"></textarea>
+	                        </div>
+				            <button type="submit" class="btn">Sign me up!</button>
+						</form>
+                    </div>
+                    <div class="col-sm-6 forms-right-icons">
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
+							<div class="col-sm-10">
+								<h3>Beautiful Forms</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-commenting"></i></div>
+							<div class="col-sm-10">
+								<h3>Awesome Login</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-magic"></i></div>
+							<div class="col-sm-10">
+								<h3>Great Registration</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+                    </div>
+                </div>
+                
+                <div class="row login-form">
+                    <div class="col-sm-4 col-sm-offset-1">
+						<form role="form" action="" method="post" class="l-form">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="l-form-username">Username</label>
+	                        	<input type="text" name="l-form-username" placeholder="Username..." class="l-form-username form-control" id="l-form-username">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="l-form-password">Password</label>
+	                        	<input type="password" name="l-form-password" placeholder="Password..." class="l-form-password form-control" id="l-form-password">
+	                        </div>
+				            <button type="submit" class="btn">Sign in!</button>
+				    	</form>
+				    	<div class="social-login">
+                        	<p>Or login with:</p>
+                        	<div class="social-login-buttons">
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-facebook"></i></a>
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-twitter"></i></a>
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-google-plus"></i></a>
+                        	</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 forms-right-icons">
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-user"></i></div>
+							<div class="col-sm-10">
+								<h3>New Features</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-eye"></i></div>
+							<div class="col-sm-10">
+								<h3>Easy To Use</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2 icon"><i class="fa fa-twitter"></i></div>
+							<div class="col-sm-10">
+								<h3>Social Integrated</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+							</div>
+						</div>
+                    </div>
+                </div>
+                    
+        	</div>
         </div>
 
+        <!-- Footer -->
+        <footer>
+        	<div class="container">
+        		<div class="row">
+        			
+        			<div class="col-sm-8 col-sm-offset-2">
+        				<div class="footer-border"></div>
+        				<p></p>
+        			</div>
+        			
+        		</div>
+        	</div>
+        </footer>
 
         <!-- Javascript -->
-        <script src="<?php echo base_url('themes/js/jquery-1.11.1.min.js');?>"></script>
-        <script src="<?php echo base_url('themes/js/bootstraplogin.min.js');?>"></script>
-        <script src="<?php echo base_url('themes/js/jquery.backstretch.min.js');?>"></script>
-        <script src="<?php echo base_url('themes/js/scripts.js');?>"></script>
-        <script src="<?php echo base_url('themes/js/placeholder.js');?>"></script>"
+		<script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
+        <script src="<?php echo base_url('themes/extend/scripts.js');?>"></script>
+        
         <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
+			<script src="assets/js/placeholder.js"></script>
+			
+
         <![endif]-->
 
     </body>
