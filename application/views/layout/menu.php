@@ -53,7 +53,7 @@
               </div>
             </div>
             <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/shakes.jpg');?>" alt="">
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/shakes.jpg');?>" alt="">
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Toppings.jpg');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a Fresh strawbery Milk shake with cherry on top, Vanilla, Mocha, Melted Chocolate, Oreo, Banana milk shake. Sprinkled with toppings that will complete the formula of perfection.</p>
