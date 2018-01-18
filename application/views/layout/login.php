@@ -65,6 +65,10 @@
 	                        	<input type="text" name="r-form-email" placeholder="Email..." class="r-form-email form-control" id="r-form-email">
 	                        </div>
 	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-password">Password</label>
+	                        	<input type="password" name="r-form-password" placeholder="Password..." class="r-form-password form-control" id="r-form-password">
+	                        </div>
+	                        <div class="form-group">
 	                        	<label class="sr-only" for="r-form-about-yourself">About yourself</label>
 	                        	<textarea name="r-form-about-yourself" placeholder="About yourself..." 
 	                        				class="r-form-about-yourself form-control" id="r-form-about-yourself"></textarea>
