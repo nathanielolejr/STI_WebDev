@@ -24,7 +24,7 @@
                 <span class="section-heading-upper">Our Promise</span>
                 <span class="section-heading-lower">To You</span>
               </h2>
-              <p class="mb-0">Provide a good service with a friendly atmosphere that can relax your mind and tummy that will satisfy your palate.</p>
+              <p class="mb-0">Provide a good service with a friendly atmosphere that can be a place to dream as you try to escape the daily stresses of our life and have a comfortable place to meet with your friends. With a growing demand for high-quality gourmet coffee, dessert and great service.</p>
             </div>
           </div>
         </div>
