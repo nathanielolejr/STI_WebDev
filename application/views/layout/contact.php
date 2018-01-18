@@ -68,23 +68,23 @@
                 </em>
 
                 <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 8.228942, lng: 124.239036};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 18,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
+                <script>
+                  function initMap() {
+                    var uluru = {lat: 8.228942, lng: 124.239036};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 18,
+                    center: uluru
+                  });
+                    var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+                </script>
     
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRx4TZWfYjIrlRfLhNTZH5M3ki_UJvmJ4&callback=initMap">
-    </script>
+                <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRx4TZWfYjIrlRfLhNTZH5M3ki_UJvmJ4&callback=initMap">
+                </script>
 
               </p>
             </div>

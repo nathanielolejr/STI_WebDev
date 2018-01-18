@@ -8,7 +8,7 @@
             <p class="mb-3">Relax and refresh your mind with Marshweet Café
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+              <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/contact');?>">Visit Us Today!</a>
             </div>
           </div>
         </div>
