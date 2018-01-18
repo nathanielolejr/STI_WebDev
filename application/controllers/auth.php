@@ -14,6 +14,8 @@ class Auth extends CI_Controller
 
         if($_POST) {
 
+            var_dump($_POST);
+
             $result = $this->Auth_model->validate_user($_POST);
             
             if(isset($result))
@@ -25,8 +27,9 @@ class Auth extends CI_Controller
   
             }
             else
-            {
-                       
+            {   
+                
+
             }
             
         }
