@@ -77,7 +77,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Merchandise.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">Buy certain of products to get one of this merchandise for free.</p>
+              <p class="mb-0">Buy certain products to get one of this merchandise for free.</p>
             </div>
           </div>
         </div>
