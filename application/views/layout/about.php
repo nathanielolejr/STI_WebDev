@@ -16,7 +16,7 @@
                 <h2>
                   <span class="section-heading-upper">Vision</span>
                 </h2>
-                <p>The vision of Marshweet is to become well-known in café and manufacturer field not just in the Philippines but also in other countries with the superior confidence in becoming successful.</p>
+                <p>Marshweet Café will make it's best effort to create a unique place where costumers can socialized with each other in a comfortable and relaxing environment while enjoying the best brewed coffee. We will be in the business of helping our costumers to relieve their daily stresses by providing piece of mind through great ambience, convenient location,friendly costumer service, and products of consistently high-quality. Enable to become a well-known café and manufacturer field not just in the Philippines but also in other countries with the superior confidence in becoming successful.</p>
               </div>
             </div>
           </div>
