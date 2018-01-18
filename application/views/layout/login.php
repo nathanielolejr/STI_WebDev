@@ -103,14 +103,18 @@
                 
                 <div class="row login-form">
                     <div class="col-sm-4 col-sm-offset-1">
-						<form role="form" action="" method="post" class="l-form">
+
+                    	 <?php if(isset($_SESSION)) {
+        						echo $this->session->flashdata('flash_data');
+  						  } ?>
+						<form role="form" action="<?php echo base_url('auth/login') ?>" method="post" class="l-form">
 	                    	<div class="form-group">
-	                    		<label class="sr-only" for="l-form-username">Username</label>
-	                        	<input type="text" name="l-form-username" placeholder="Username..." class="l-form-username form-control" id="l-form-username">
+	                    		<label class="sr-only" for="username">Username</label>
+	                        	<input type="text" name="username" placeholder="Username..." class="l-form-username form-control" id="l-form-username">
 	                        </div>
 	                        <div class="form-group">
-	                        	<label class="sr-only" for="l-form-password">Password</label>
-	                        	<input type="password" name="l-form-password" placeholder="Password..." class="l-form-password form-control" id="l-form-password">
+	                        	<label class="sr-only" for="password">Password</label>
+	                        	<input type="password" name="password" placeholder="Password..." class="l-form-password form-control" id="l-form-password">
 	                        </div>
 				            <button type="submit" class="btn">Sign in!</button>
 				    	</form>
