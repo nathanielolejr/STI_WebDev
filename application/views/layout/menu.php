@@ -31,7 +31,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/4e1b2a8955f677f914c515f3649cb523--waffle-toppings-crepe.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Dessert.png');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts that were made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter or actually making mini cappuccino cups from coffee-flavoured sponge, we've got the recipes to give you the buzz you're looking for.</p>
@@ -52,7 +52,7 @@
                 </h2>
               </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/shakes.jpg');?>" alt="">
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Shakes final.jpg');?>" alt="">
             <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Toppings.jpg');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
