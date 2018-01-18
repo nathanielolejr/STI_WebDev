@@ -32,10 +32,10 @@
                 	
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text">
-                        <h1>Bootstrap Login &amp; Register Forms</h1>
+                        <h1>Come &amp; Join Us Now!</h1>
                         <div class="description">
                         	<p>
-	                         ADD SOMETHING HERE
+	                         I Love Marshweet
                         	</p>
                         </div>
                     </div>
