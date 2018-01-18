@@ -20,14 +20,13 @@ class Auth extends CI_Controller
             {
             	if($result->user_id > 0) 
             	{
-                	echo "user exist";
-                	
+                	redirect("welcome");
             	} 
   
             }
             else
             {
-            	echo "user does not exist";
+                       
             }
             
         }
