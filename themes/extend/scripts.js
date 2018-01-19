@@ -49,6 +49,7 @@ jQuery(document).ready(function() {
 	
 		return false; // avoid to execute the actual submit of the form.
 	});
+
 	$("#login-form").submit(function(){
 		$.ajax({
 			type    : "POST",
@@ -56,11 +57,13 @@ jQuery(document).ready(function() {
 			data    : $(this).serialize(),
 			dataType: 'json',
 			success : function(response) {
-				if (response == "success") 
-				{
-					$('div.login-alert').removeClass('hidden');
-				}	
-			} // serializes the form's elements.
+    			if (response == "success") 
+    			{
+    					$('div.login-alert').removeClass('hidden');
+
+    			}	
+		    }
+		});
 	 });
  
 	 return false;

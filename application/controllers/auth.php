@@ -18,7 +18,6 @@ class Auth extends CI_Controller
             //var_dump($_POST);
 
             $result = $this->Auth_model->validate_user($_POST);
-            
             if(isset($result))
             {
             	if($result->user_id > 0) 
