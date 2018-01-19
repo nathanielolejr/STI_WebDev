@@ -17,7 +17,6 @@ class Auth_model extends CI_Model
         $this->db->where('password', $data['password']);
 
         $query = $this->db->get('users')->row();
-        
         return $query;
 
     }

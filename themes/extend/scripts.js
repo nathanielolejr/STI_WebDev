@@ -54,8 +54,7 @@ jQuery(document).ready(function() {
 				if (response == "success") 
 				{
 					$('div.login-alert').removeClass('hidden');
-				}
-				e.preventDefault;		
+				}	
 			} // serializes the form's elements.
 	 });
  
