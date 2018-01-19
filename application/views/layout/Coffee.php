@@ -102,7 +102,7 @@ h1 {
   <div class="column">
     <div class="content">
       <img class="img" src="<?php echo base_url('themes/img/Affogato.jpg');?>" alt="Afforgato" style="width:100%">
-      <p class="h3font">Afforgato</p>
+      <p class="h3font">Affogato</p>
     </div>
   </div>
 
