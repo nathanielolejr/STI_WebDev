@@ -80,7 +80,7 @@
 							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
 							<div class="col-sm-10">
 								<h3>Guide</h3>
-								<p>Welcome to Marshweet Café. If you want to be one of us who loves Marshweet, please fill up the registration form at the right side of the page. After that click the "Sign Me Up" button so that we can proceed you to the Login form. After filling up the forms you will become one of us now. Congratulations!</p>
+								<p>Welcome to Marshweet Café. If you want to be one of us who loves Marshweet, please fill up the registration form at the right side of the page. After that click the "Sign Me Up" button so that we can proceed you to the Login form. </p>
 							</div>
 						</div>
 						<div class="row">
@@ -114,22 +114,16 @@
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-user"></i></div>
 							<div class="col-sm-10">
-								<h3>New Features</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-2 icon"><i class="fa fa-eye"></i></div>
-							<div class="col-sm-10">
-								<h3>Easy To Use</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<h3>Attention!</h3>
+								<p>You just finish filling up the registration form, and now please fill up again the form in the right side then click "Sign In" and you will become one of us now. Congratulations!</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-twitter"></i></div>
 							<div class="col-sm-10">
-								<h3>Social Integrated</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<h3>A Member</h3>
+								<p>What is the recipe for successful achievement? To my mind there are just four essential ingredients: <em>Choose a career you love, give it the best there is in you, seize your opportunities, and be a member of the team.</em></p>
+								<p>-Benjamin Franklin Fairless</p>
 							</div>
 						</div>
                     </div>
