@@ -51,19 +51,17 @@ jQuery(document).ready(function() {
 			data    : $(this).serialize(),
 			dataType: 'json',
 			success : function(response) {
-				console.log(response);
-
-		
+				if (response == "success") 
+				{
+					$('div.login-alert').removeClass('hidden');
+				}
+				e.preventDefault;		
 			} // serializes the form's elements.
 	 });
  
 	 return false;
-		
-
-	
-	
 	});
-    
+	
     /*
         Login form validation
     */

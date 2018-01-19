@@ -1,4 +1,4 @@
-<section class="page-section">
+<section class="page-section" id='menu-section'>
       <div class="container">
         <div class="product-item">
           <div class="product-item-title d-flex">
