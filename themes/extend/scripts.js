@@ -27,7 +27,21 @@ jQuery(document).ready(function() {
     			$('.login-form').fadeIn('fast');
     		});
     	}
-    });
+	});
+	
+	$("#signup-form").submit(function() {
+	
+		$.ajax({
+			   type: "POST",
+			   url : base_url + "user/signup",
+			   data: $(this).serialize(),
+			   complete: function() {
+				   $('span.show-login-form').trigger('click');
+			   } // serializes the form's elements.
+		});
+	
+		return false; // avoid to execute the actual submit of the form.
+	});
     
     /*
         Login form validation

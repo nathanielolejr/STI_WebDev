@@ -16,7 +16,7 @@
 	
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="shortcut icon" href="<?php echo base_url('themes/img/favicon.png');?>">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('themes/img/apple-touch-icon-144-precomposed.png');?>">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('themes/img/apple-touch-icon-114-precomposed.png');?>">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('themes/img/apple-touch-icon-72-precomposed.png');?>">
@@ -51,7 +51,7 @@
                 
                 <div class="row register-form">
                     <div class="col-sm-4 col-sm-offset-1">
-						<form role="form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
+						<form role="form" id="signup-form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
 	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname">
@@ -68,7 +68,7 @@
 	                        	<label class="sr-only" for="password">Password</label>
 	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass">
 	                        </div>
-				            <button type="submit" class="btn">Sign me up!</button>
+				            <button type="submit" class="btn sign-up-btn">Sign me up!</button>
 						</form>
                     </div>
                     <div class="col-sm-6 forms-right-icons">
@@ -98,7 +98,7 @@
                 
                 <div class="row login-form">
                     <div class="col-sm-4 col-sm-offset-1">
-						<form role="form" action="" method="post" class="l-form">
+						<form role="form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
 	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username">
@@ -162,7 +162,7 @@
 
         <!-- Javascript -->
 		<script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
-        <script src="<?php echo base_url('themes/extend/scripts.js');?>"></script>
+        
         
         <!--[if lt IE 10]>
 			<script src="assets/js/placeholder.js"></script>
