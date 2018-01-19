@@ -35,7 +35,7 @@
                         <h1>Come &amp; Join Us Now!</h1>
                         <div class="description">
                         	<p>
-	                         I Love Marshweet
+	                         Time is limited so enjoy little things at Marshweet Café.
                         	</p>
                         </div>		
                     </div>
@@ -79,15 +79,8 @@
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
 							<div class="col-sm-10">
-								<h3>Get Great Deals</h3>
-								<p>Welcome the day with a greatful HEART.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-2 icon"><i class="fa fa-commenting"></i></div>
-							<div class="col-sm-10">
-								<h3>Find The Most Exclusive Blends</h3>
-								<p>There is nothing better than a day at Marshweet Café. Enjoy!</p>
+								<h3>Guide</h3>
+								<p>Welcome to Marshweet Café. If you want to be one of us who loves Marshweet, please fill up the registration form at the right side of the page. After that click the "Sign Me Up" button so that we can proceed you to the Login form. After filling up the forms you will become one of us now. Congratulations!</p>
 							</div>
 						</div>
 						<div class="row">
