@@ -107,7 +107,7 @@
 							<div class="alert alert-success hidden login-alert">
 strong>Success!</strong> Indicates a successful or positive action.
 </div>
-				            <button type="submit" class="btn">Sign in!</button>
+				            <button type="submit" class="btn" href="<?php echo base_url('welcome/front');?>">Sign in!</button>
 							<div>
 							<p style="color:white;">Dont have an account?<a class='show-register-form' href="#">Register Now!</p>
 						</div>

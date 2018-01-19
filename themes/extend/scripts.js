@@ -44,6 +44,7 @@ jQuery(document).ready(function() {
 	
 		return false; // avoid to execute the actual submit of the form.
 	});
+
 	$("#login-form").submit(function(){
 		$.ajax({
 			type    : "POST",
@@ -55,7 +56,7 @@ jQuery(document).ready(function() {
 				{
 					$('div.login-alert').removeClass('hidden');
 				}
-				e.preventDefault;		
+				//e.preventDefault;		
 			} // serializes the form's elements.
 	 });
  
