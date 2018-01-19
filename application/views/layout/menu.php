@@ -15,7 +15,11 @@
               <p class =  "centeralign">
               <p class="mb-0">Taste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Cappuccino, Latte, Espresso, American or something as simple as a cup of specialty sourced black coffee.</p>  
             </p>
-          </div>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/Coffee');?>">Explore our Coffee</a>
+            </div>
+            </div>
+            
         </div>
       </div>
     </section>

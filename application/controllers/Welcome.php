@@ -43,4 +43,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/login');
 		$this->load->view('layout/footer');
 	}
+
+	public function Coffee()
+	{
+		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/title');
+		$this->load->view('layout/navbar');
+		$this->load->view('layout/Coffee');
+		$this->load->view('layout/footer');
+	}
 }
