@@ -53,7 +53,6 @@
               </div>
             </div>
             <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/strawberry-smoothie-1.jpg');?>" alt="">
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/marshmallow.jpg ');?>" alt="">
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a fresh Strawbery Smoothie with marshmallow on top, Sweet Potato Almond Milkshake, Cookies N Cream Milkshake, Thick Chocolate Milkshake, Banana Milkshake with Dry fruits on top and Peppermint Mocha Milkshake. Sprinkled with toppings that will complete the formula of perfection.  And also you can choose any toppings for your milkshake that will satisfy your taste.</p>
@@ -74,7 +73,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Tumbler.png');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/trumbler.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">Buy certain products to get one of this merchandise for free.</p>
