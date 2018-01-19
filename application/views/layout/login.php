@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap Login &amp; Register Templates</title>
+        <title>Come &amp; Join Us Now!</title>
 
         <!-- CSS -->
 		<link rel="stylesheet" href="<?php echo base_url('themes/extend/bootstrap.min.css');?>">
@@ -32,12 +32,12 @@
                 	
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text">
-                        <h1>Bootstrap Login &amp; Register Forms</h1>
+                        <h1>Come &amp; Join Us Now!</h1>
                         <div class="description">
                         	<p>
-	                         ADD SOMETHING HERE
+	                         I Love Marshweet
                         	</p>
-                        </div>
+                        </div>		
                     </div>
                 </div>
                 
@@ -63,7 +63,7 @@
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="email">Email</label>
 	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email">
-	                        </div>
+	                        </div>		
 							<div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
 	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass">
@@ -75,22 +75,22 @@
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
 							<div class="col-sm-10">
-								<h3>Beautiful Forms</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<h3>Get Great Deals</h3>
+								<p>Welcome the day with a greatful HEART.</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-commenting"></i></div>
 							<div class="col-sm-10">
-								<h3>Awesome Login</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<h3>Find The Most Exclusive Blends</h3>
+								<p>There is nothing better than a day at Marshweet Café. Enjoy!</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-magic"></i></div>
 							<div class="col-sm-10">
-								<h3>Great Registration</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+								<h3>Good Aroma To Start Your Day</h3>
+								<p>Life is too short to start your day with broken pieces of yesterday, it will definitely destroy your wonderful today and ruin your great tommorow. So come to Marshweet Café and refresh your mind :)</p>
 							</div>
 						</div>
                     </div>
