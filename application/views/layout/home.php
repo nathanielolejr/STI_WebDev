@@ -1,4 +1,4 @@
-<section class="page-section clearfix">
+<section class="page-section clearfix" id='home-section'>
       <div class="container">
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php echo base_url('themes/img/511537644.jpg'); ?>" alt="">

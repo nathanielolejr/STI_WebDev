@@ -104,6 +104,9 @@
 	                        	<label class="sr-only" for="password">Password</label>
 	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="password"required>
 	                        </div>
+							<div class="alert alert-success hidden login-alert">
+strong>Success!</strong> Indicates a successful or positive action.
+</div>
 				            <button type="submit" class="btn">Sign in!</button>
 							<div>
 							<p style="color:white;">Dont have an account?<a class='show-register-form' href="#">Register Now!</p>
