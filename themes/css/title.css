@@ -1,3 +1,10 @@
 .imagelogo2{
     width: 70%;
+
 }
+
+.site-heading {
+    text-transform:uppercase;
+    line-height:1;
+    font-family:Raleway
+   }
