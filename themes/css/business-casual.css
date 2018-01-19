@@ -65,6 +65,8 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
+  text-decoration: underline;
+  
 }
 
 .section-heading .section-heading-lower {
