@@ -13,7 +13,7 @@
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
               <p class =  "centeralign">
-              <p class="mb-0">Taste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Cappuccino, Latte, Espresso, American or something as simple as a cup of specialty sourced black coffee.</p>  
+              <p class="mb-0">Taste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Cappuccino, Latte, Espresso, American, Mocha Spiced coffee or something as simple as a cup of specialty sourced black coffee.</p>  
             </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/Coffee');?>">Explore our Coffee</a>
@@ -38,7 +38,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/carrotcoconutcake.png');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts that were made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter or actually making mini cappuccino cups from coffee-flavoured sponge, we've got the recipes to give you the buzz you're looking for.</p>
+              <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts that were made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter, we've got the recipes to give you the buzz you're looking for.</p>
             </div>
           </div>
         </div>
