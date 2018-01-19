@@ -55,12 +55,7 @@ jQuery(document).ready(function() {
 				if (response == "success") 
 				{
 					$('div.login-alert').removeClass('hidden');
-<<<<<<< HEAD
-				}
-				//e.preventDefault;		
-=======
 				}	
->>>>>>> 7f7e2c9ef0d4d7251d738e7bb3ef5813345f8d3c
 			} // serializes the form's elements.
 	 });
  
