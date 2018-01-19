@@ -90,12 +90,12 @@
 							<div class="col-sm-2 icon"><i class="fa fa-magic"></i></div>
 							<div class="col-sm-10">
 								<h3>Good Aroma To Start Your Day</h3>
-								<p>Life is too short to start your day with broken pieces of yesterday, it will definitely destroy your wonderful today and ruin your great tommorow. So come to Marshweet Café and refresh your mind :)</p>
+								<p>Life is too short to start your day with broken pieces of yesterday, it will definitely destroy your wonderful today and ruin your great tommorow. So come to Marshweet Café and refresh your mind.</p>
 							</div>
 						</div>
                     </div>
                 </div>
-                
+                	
                 <div class="row login-form">
                     <div class="col-sm-4 col-sm-offset-1">
 						<form role="form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
