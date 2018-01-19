@@ -12,7 +12,7 @@
                 <h2>
                   <span class="section-heading-upper">Mission</span>
                 </h2>
-                <p>We aim to serve the best quality and most interesting varieties of coffee, shakes and dessert and to produce a product with good qualities and to promote café here in our community "Iligan City, Philippines" and also for us to inspire youth to be a successful entrepreneur in the near future.</p>
+                <p>We aim to serve the best quality and most interesting varieties of coffee, shakes and dessert and to produce a product with good qualities and to promote café here in our community <em>Iligan City, Philippines</em> and also for us to inspire youth to be a successful entrepreneur in the near future.</p>
                 <h2>
                   <span class="section-heading-upper">Vision</span>
                 </h2>
