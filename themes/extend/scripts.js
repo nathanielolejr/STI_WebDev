@@ -39,6 +39,11 @@ jQuery(document).ready(function() {
 			   data: $(this).serialize(),
 			   complete: function() {
 				   $('span.show-login-form').trigger('click');
+                   $('div.success-alert').removeClass('hidden');
+                   $("div.success-alert").fadeTo(2000, 200).slideUp(500, function(){
+                        $("div.success-alert").slideUp(500);
+                    });
+
 			   } // serializes the form's elements.
 		});
 	
@@ -54,8 +59,7 @@ jQuery(document).ready(function() {
 				if (response == "success") 
 				{
 					$('div.login-alert').removeClass('hidden');
-				}
-				e.preventDefault;		
+				}	
 			} // serializes the form's elements.
 	 });
  
