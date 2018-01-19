@@ -22,7 +22,7 @@ p {
 .site-heading .site-heading-upper {
  display:block;
  font-size:2rem;
- font-weight:800
+ font-weight:700
 }
 .site-heading .site-heading-lower {
  font-size:5rem;
@@ -40,7 +40,6 @@ p {
  display:block;
  font-size:1rem;
  font-weight:800;
-  text-decoration: underline;
   
 }
 .section-heading .section-heading-lower {

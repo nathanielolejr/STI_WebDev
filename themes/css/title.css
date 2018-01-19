@@ -3,9 +3,9 @@
 
 }
 
-.site-heading {
-	margin-top: 1rem;
-	margin-bottom: 1rem;				
+.site-heading {	
+    margin-left: 1rem;
+    margin-right: 1rem;			
     text-transform:uppercase;
     line-height:1;
     font-family:Raleway
