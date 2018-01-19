@@ -95,7 +95,7 @@
                 	
                 <div class="row login-form">
                     <div class="col-sm-4 col-sm-offset-1">
-						<form role="form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
+						<form role="form" id="login-form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
 	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username"required>
