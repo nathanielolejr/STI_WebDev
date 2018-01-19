@@ -49,7 +49,7 @@ h1 {
     background-color: white;
     border: 2px solid;
     border-color:#78573A;
-    padding: 20px;
+    padding: 9px;
     border-radius: 5px;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .img{
-    border-radius: 8px;
+    border-radius:8px;
 }
 
 </style>
