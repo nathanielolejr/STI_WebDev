@@ -34,7 +34,7 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
+    width: 50%;
 }
 
 /* Clear floats after rows */ 
@@ -47,7 +47,10 @@ h1 {
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
+    border: 2px solid;
+    border-color:#78573A;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -63,6 +66,16 @@ h1 {
         width: 100%;
     }
 }
+
+.h3font{
+    margin-top: 1rem;
+    font-weight:10;
+}
+
+.img{
+    border-radius: 8px;
+}
+
 </style>
 </head>
 <body>
@@ -79,34 +92,48 @@ h1 {
               <p class="mb-0">Provide a good service with a friendly atmosphere that can be a place to dream as you try to escape the daily stresses of our life and have a comfortable place to meet with your friends. With a growing demand for high-quality gourmet coffee, dessert and great service.</p>
               
               <div class="row">
+                <div class="column">
+                <div class="content">
+                <img class="img" src="<?php echo base_url('themes/img/Americano.jpg');?>" alt="Americano" style="width:100%">
+               <p class="h3font">Americano</p>             
+            </div>
+        </div>
+
   <div class="column">
     <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <img class="img" src="<?php echo base_url('themes/img/Affogato.jpg');?>" alt="Afforgato" style="width:100%">
+      <p class="h3font">Afforgato</p>
     </div>
   </div>
+
   <div class="column">
     <div class="content">
-      <img src="lights.jpg" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
+      <img class="img" src="<?php echo base_url('themes/img/Espresso.jpg');?>" alt="Espresso" style="width:100%">
+      <p class="h3font">Espresso</p>
     </div>
   </div>
+  
   <div class="column">
-    <div class="content">
-      <img src="nature.jpg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
+  <div class="content">
+    <img class="img" src="<?php echo base_url('themes/img/Cappuccino.jpg');?>" alt="Cappuccino" style="width:100%">
+    <p class="h3font">Cappuccino</p>
   </div>
-  <div class="column">
-    <div class="content">
-      <img src="mountains.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum..</p>
-    </div>
+</div>
+
+<div class="column">
+  <div class="content">
+    <img class="img" src="<?php echo base_url('themes/img/Latte.jpg');?>" alt="Latte" style="width:100%">
+    <p class="h3font">Latte</p>
   </div>
+</div>
+
+<div class="column">
+  <div class="content">
+    <img class="img" src="<?php echo base_url('themes/img/mochaspiced.jpg');?>" alt="Mocha Spiced" style="width:100%">
+    <p class="h3font">Mocha Spiced</p>
+  </div>
+</div>
+
 </div>
             </div>
           </div>
