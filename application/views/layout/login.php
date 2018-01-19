@@ -54,19 +54,23 @@
 						<form role="form" id="signup-form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
-	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname">
+	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" required>
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="lname">Last name</label>
-	                        	<input type="text" name="lname" placeholder="Last name..." class="lname form-control" id="lname">
+	                        	<input type="text" name="lname" placeholder="Last name..." class="lname form-control" id="lname"required>
+	                        </div>
+							<div class="form-group">
+	                        	<label class="sr-only" for="username">Username</label>
+	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="user-name"required>
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="email">Email</label>
-	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email">
+	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email"required>
 	                        </div>		
 							<div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
-	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass">
+	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass"required>
 	                        </div>
 				            <button type="submit" class="btn sign-up-btn">Sign me up!</button>
 						</form>
@@ -101,22 +105,17 @@
 						<form role="form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
-	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username">
+	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username"required>
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
-	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="password">
+	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="password"required>
 	                        </div>
 				            <button type="submit" class="btn">Sign in!</button>
+							<div>
+							<p style="color:white;">Dont have an account?<a class='show-register-form' href="#">Register Now!</p>
+						</div>
 				    	</form>
-				    	<div class="social-login">
-                        	<p>Or login with:</p>
-                        	<div class="social-login-buttons">
-	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-facebook"></i></a>
-	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-twitter"></i></a>
-	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-google-plus"></i></a>
-                        	</div>
-                        </div>
                     </div>
                     <div class="col-sm-6 forms-right-icons">
 						<div class="row">
