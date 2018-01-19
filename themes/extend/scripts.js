@@ -59,16 +59,17 @@ jQuery(document).ready(function() {
 			success : function(response) {
     			if (response == "success") 
     			{
-    					$('div.login-alert').removeClass('hidden');
+    				$('div.login-alert').removeClass('hidden');
+                    $("div.login-alert").fadeTo(2000, 100).slideUp(500, function(){
+                    $("div.login-alert").slideUp(500);
+                    });
 
     			}	
 		    }
 		});
+        return false;
 
 	 });
- 
-	 return false;
-	});
 	
     /*
         Login form validation
