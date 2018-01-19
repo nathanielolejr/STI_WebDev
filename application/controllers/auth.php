@@ -12,9 +12,10 @@ class Auth extends CI_Controller
  
     public function login() {
 
+        $status = 'fail';
         if($_POST) {
 
-            var_dump($_POST);
+            //var_dump($_POST);
 
             $result = $this->Auth_model->validate_user($_POST);
             
@@ -22,18 +23,18 @@ class Auth extends CI_Controller
             {
             	if($result->user_id > 0) 
             	{
-                	redirect("welcome");
+                    //redirect("welcome");
+                    $status = 'success';
             	} 
   
             }
             else
             {   
-                
-
-            }
-            
+                $status = 'fail';
+            } 
         }
- 
+        
+        print json_encode($status);
         //$this->load->view("login");
     }
 }

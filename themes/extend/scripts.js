@@ -16,7 +16,9 @@ jQuery(document).ready(function() {
     		$('.login-form').fadeOut('fast', function(){
     			$('.register-form').fadeIn('fast');
     		});
-    	}
+		}
+		
+		return false;
     });
     // ---
     $('.show-login-form').on('click', function(){
@@ -41,6 +43,25 @@ jQuery(document).ready(function() {
 		});
 	
 		return false; // avoid to execute the actual submit of the form.
+	});
+	$("#login-form").submit(function(){
+		$.ajax({
+			type    : "POST",
+			url     : base_url + "auth/login",
+			data    : $(this).serialize(),
+			dataType: 'json',
+			success : function(response) {
+				console.log(response);
+
+		
+			} // serializes the form's elements.
+	 });
+ 
+	 return false;
+		
+
+	
+	
 	});
     
     /*

@@ -16,8 +16,9 @@ class User extends CI_Controller
 
         $model_data['last_name']  = (isset($data['lname'])) ? $data['lname']: '';
         $model_data['first_name'] = (isset($data['fname'])) ? $data['fname']: '';
+        $model_data['username']   = (isset($data['username'])) ? $data['username'] : '';
         $model_data['email']      = (isset($data['email'])) ? $data['email']: '';
-        $model_data['password']   = ((isset($data['password'])) ? $data['password'] : '');
+        $model_data['password']   = (isset($data['password'])) ? $data['password'] : '';
     
         $this->User_model->new_user($model_data);
     }
