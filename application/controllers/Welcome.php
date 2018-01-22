@@ -40,6 +40,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('layout/headerLogin');
 		$this->load->view('layout/title');
+		$this->load->view('layout/navbar');
 		$this->load->view('layout/login');
 		$this->load->view('layout/footer');
 	}
@@ -51,11 +52,6 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/Coffee');
 		$this->load->view('layout/footer');
-	}
-
-	public function front()
-	{
-		$this->load->view('layout/front');
 	}
 
 	public function Desserts()
