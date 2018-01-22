@@ -11,9 +11,18 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/Menu');?>">Menu</a>
-            </li>
+
+            <li class="dropdown nav-item px-lg-4" >
+              <a class="dropbtn nav-link text-uppercase text-expanded"  href="<?php echo base_url('welcome/Menu');?>">Menu</a>
+              <div class="dropdown-content">
+              <a href="<?php echo base_url('welcome/Coffee');?>">Coffee</a>
+              <a href="<?php echo base_url('welcome/Desserts');?>">Desserts</a>
+              <a href="<?php echo base_url('welcome/Shakes');?>">Shakes & Toppings</a>
+              <a href="<?php echo base_url('welcome/Merch');?>">Merchandise</a>
+            </div>
+          </li>
+            
+
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
             </li>

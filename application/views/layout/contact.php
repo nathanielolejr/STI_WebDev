@@ -17,10 +17,7 @@
                 <span class="section-heading-upper">We're Open During</span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Sunday
-                  <span class="ml-auto">Closed</span>
-                </li>
+                
                 <li class="list-unstyled-item list-hours-item d-flex">
                   Saturday
                   <span class="ml-auto">10:00 AM to 5:00 PM</span>
