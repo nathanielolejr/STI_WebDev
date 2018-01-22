@@ -21,7 +21,11 @@
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/contact');?>">Contact Us</a>
             </li>
             <li class="nav-item px-lg-4">
+            <?php if($this->session->userdata('user_id') > 0): ?>
+              <a class="nav-link text-uppercase text-expanded" href="<?php //echo base_url('welcome/login');?>">Logout</a>
+            <?php else: ?>
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/login');?>">Login</a>
+            <?php endif;?>
             </li>
           </ul>
         </div>

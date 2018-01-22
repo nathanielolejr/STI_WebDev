@@ -23,9 +23,10 @@ class Auth extends CI_Controller
             	if($result->user_id > 0) 
             	{
                     //redirect("welcome");
+                    $this->session->set_userdata('user_id', $result->user_id);
+
                     $status = 'success';
             	} 
-  
             }
             else
             {   
