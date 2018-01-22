@@ -39,6 +39,10 @@
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts that were made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter, we've got the recipes to give you the buzz you're looking for.</p>
+              <br>
+              <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl btn-dessert" href="<?php echo base_url('welcome/Desserts');?>">Explore our Desserts</a>
+            </div>
             </div>
           </div>
         </div>
@@ -60,6 +64,10 @@
             <div class="product-item-description d-flex mr-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0"> When it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Whether it is a fresh Strawbery Smoothie with marshmallow on top, Sweet Potato Almond Milkshake, Cookies N Cream Milkshake, Thick Chocolate Milkshake, Banana Milkshake with Dry fruits on top and Peppermint Mocha Milkshake. Sprinkled with toppings that will complete the formula of perfection.  And also you can choose any toppings for your milkshake that will satisfy your taste.</p>
+                <br>
+                <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/Shakes');?>">Explore our Shakes and Toppings</a>
+            </div>
               </div>
             </div>
           </div>
@@ -81,6 +89,10 @@
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">Buy certain products to get one of this merchandise for free.</p>
+              <br>
+              <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl btn-merch" href="<?php echo base_url('welcome/Merch');?>">Explore our Merchandise</a>
+            </div>
             </div>
           </div>
         </div>

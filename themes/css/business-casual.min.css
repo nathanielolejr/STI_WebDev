@@ -77,9 +77,9 @@ p {
 }
 .btn-xl {
  font-weight:700;
- font-size:.8rem;
- padding-top:1.5rem;
- padding-bottom:1.5rem;
+ font-size:.9rem;
+ padding-top:1rem;
+ padding-bottom:1rem;
  padding-left:2rem;
  padding-right:2rem
 }
@@ -186,6 +186,7 @@ p {
 }
 .text-primary {
  color:#e6a756!important
+ 
 }
 .bg-primary {
  background-color:#e6a756!important
@@ -201,6 +202,14 @@ p {
  background-color:#df902a;
  border-color:#df902a
 }
+.btn-dessert{
+    float: right;
+}
+
+.btn-merch{
+    float: right;
+}
+
 .font-weight-light {
  font-weight:100!important
 }

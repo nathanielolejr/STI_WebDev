@@ -9,8 +9,8 @@
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Hot and Cold</span>
-                <span class="section-heading-lower">Coffee</span>
+                <span class="section-heading-upper">Sweet</span>
+                <span class="section-heading-lower">Desserts</span>
               </h2>
               
               
