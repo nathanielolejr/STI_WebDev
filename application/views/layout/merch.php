@@ -17,45 +17,35 @@
               <div class="row">
                 <div class="column">
                 <div class="content">
-                <img class="img" src="<?php echo base_url('themes/img/Americano.jpg');?>" alt="Americano" style="width:100%">
-               <p class="h3font">Americano</p>             
+                <img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="Americano" style="width:100%">
+               <p class="h3font">String Bag</p>             
             </div>
         </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Affogato.jpg');?>" alt="Afforgato" style="width:100%">
-      <p class="h3font">Affogato</p>
+      <img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Afforgato" style="width:60%">
+      <p class="h3font">Keychains</p>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Espresso.jpg');?>" alt="Espresso" style="width:100%">
-      <p class="h3font">Espresso</p>
+      <img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Espresso" style="width:100%">
+      <p class="h3font">Tumblur</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+      <img class="img" src="<?php echo base_url('themes/img/Merchandise-4.jpg');?>" alt="Espresso" style="width:67%">
+      <p class="h3font">Mug</p>
     </div>
   </div>
   
-  <div class="column">
-  <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Cappuccino.jpg');?>" alt="Cappuccino" style="width:100%">
-    <p class="h3font">Cappuccino</p>
-  </div>
-</div>
+  
+ 
 
-<div class="column">
-  <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Latte.jpg');?>" alt="Latte" style="width:100%">
-    <p class="h3font">Latte</p>
-  </div>
-</div>
-
-<div class="column">
-  <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/mochaspiced.jpg');?>" alt="Mocha Spiced" style="width:100%">
-    <p class="h3font">Mocha Spiced</p>
-  </div>
-</div>
 
 </div>
             </div>

@@ -17,43 +17,43 @@
               <div class="row">
                 <div class="column">
                 <div class="content">
-                <img class="img" src="<?php echo base_url('themes/img/Americano.jpg');?>" alt="Americano" style="width:100%">
-               <p class="h3font">Americano</p>             
+                <img class="img" src="<?php echo base_url('themes/img/Dessert-1.jpg');?>" alt="Americano" style="width:100%">
+               <p class="h3font">Apple Waffle</p>             
             </div>
         </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Affogato.jpg');?>" alt="Afforgato" style="width:100%">
-      <p class="h3font">Affogato</p>
+      <img class="img" src="<?php echo base_url('themes/img/Dessert-2.jpg');?>" alt="Afforgato" style="width:100%">
+      <p class="h3font">Pumpkin Spice Waffle</p>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Espresso.jpg');?>" alt="Espresso" style="width:100%">
-      <p class="h3font">Espresso</p>
+      <img class="img" src="<?php echo base_url('themes/img/Dessert-3.jpeg');?>" alt="Espresso" style="width:100%">
+      <p class="h3font">Caramelized Banana & Pearl Sugar Pancake </p>
     </div>
   </div>
   
   <div class="column">
   <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Cappuccino.jpg');?>" alt="Cappuccino" style="width:100%">
-    <p class="h3font">Cappuccino</p>
+    <img class="img" src="<?php echo base_url('themes/img/Dessert-4.png');?>" alt="Cappuccino" style="width:100%">
+    <p class="h3font">Carrot Coconut Cake</p>
   </div>
 </div>
 
 <div class="column">
   <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Latte.jpg');?>" alt="Latte" style="width:100%">
-    <p class="h3font">Latte</p>
+    <img class="img" src="<?php echo base_url('themes/img/Dessert-5.jpg');?>" alt="Latte" style="width:100%">
+    <p class="h3font">Cinnamon Roll</p>
   </div>
 </div>
 
 <div class="column">
   <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/mochaspiced.jpg');?>" alt="Mocha Spiced" style="width:100%">
-    <p class="h3font">Mocha Spiced</p>
+    <img class="img" src="<?php echo base_url('themes/img/Dessert-6.jpg');?>" alt="Mocha Spiced" style="width:100%">
+    <p class="h3font">Slider Crownie</p>
   </div>
 </div>
 
