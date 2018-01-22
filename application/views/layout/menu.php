@@ -35,7 +35,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/Dessert-4.png');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/dessert.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts that were made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter, we've got the recipes to give you the buzz you're looking for.</p>
@@ -85,7 +85,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/trumbler.jpg');?>" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/mug.jpg');?>" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">Buy certain products to get one of this merchandise for free.</p>
