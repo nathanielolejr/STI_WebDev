@@ -5,8 +5,8 @@
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">Enjoy the serene sensation 
             </h2>
-            <i class="mb-3">You love our cafe. We love our guest.
-            </i>
+            <p class="mb-3">You'll love our cafe. We love our guest.
+            </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/contact');?>">Visit Us Today!</a>
             </div>
