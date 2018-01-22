@@ -37,4 +37,9 @@ class Auth extends CI_Controller
         print json_encode($status);
         //$this->load->view("login");
     }
+    public function logout()
+    {
+        $this->session->unset_userdata('user_id');
+
+    }
 }

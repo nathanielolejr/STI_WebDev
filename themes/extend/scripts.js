@@ -71,6 +71,19 @@ jQuery(document).ready(function() {
         return false;
 
 	 });
+		 
+	 	$('.logout').on('click', function() {
+			$.ajax({
+				type    : "POST",
+				url     : base_url + "auth/logout",
+				complete: function(){
+					location.reload();
+				}
+
+			});
+			return false;
+
+		 });
 	
     /*
         Login form validation
