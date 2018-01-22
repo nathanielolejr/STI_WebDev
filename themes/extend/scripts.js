@@ -64,6 +64,7 @@ jQuery(document).ready(function() {
                     $("div.login-alert").slideUp(500);
                     });
 
+                    window.location.replace(base_url+'welcome/index');
     			}	
 		    }
 		});
