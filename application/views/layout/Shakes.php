@@ -21,7 +21,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-         <img class="img" src="<?php echo base_url('themes/img/Shake-1.jpg');?>" alt="Banana Milkshake" style="width:100%">
+         <img class="img" src="<?php echo base_url('themes/img/Shake-1.jpg');?>" alt="Banana Milkshake" style="width:80%">
         <div class="carousel-caption">
           <h3>Banana Milkshake</h3>
         </div>
