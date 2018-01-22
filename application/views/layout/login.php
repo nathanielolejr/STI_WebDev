@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Come &amp; Join Us Now!</title>
-
-        <!-- CSS -->
-		<link rel="stylesheet" href="<?php echo base_url('themes/extend/bootstrap.min.css');?>">
-		<link rel="stylesheet" href="<?php echo base_url('themes/extend/form-elements.css');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/extend/style.css');?>">
-
-	
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="<?php echo base_url('themes/img/favicon.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('themes/img/apple-touch-icon-144-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('themes/img/apple-touch-icon-114-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('themes/img/apple-touch-icon-72-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('themes/img/apple-touch-icon-57-precomposed.png');?>">
-
-    </head>
-
-    <body>
-
-        <!-- Top content -->
         <div class="top-content">
         	<div class="container">
                 	
@@ -140,31 +112,3 @@
                     
         	</div>
         </div>
-
-        <!-- Footer -->
-        <footer>
-        	<div class="container">
-        		<div class="row">
-        			
-        			<div class="col-sm-8 col-sm-offset-2">
-        				<div class="footer-border"></div>
-        				<p></p>
-        			</div>
-        			
-        		</div>
-        	</div>
-        </footer>
-
-        <!-- Javascript -->
-		<script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
-        
-        
-        <!--[if lt IE 10]>
-			<script src="assets/js/placeholder.js"></script>
-			
-
-        <![endif]-->
-
-    </body>
-
-</html>		
