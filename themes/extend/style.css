@@ -75,7 +75,7 @@ img { max-width: 100%; }
 .show-register-form.active, .show-login-form.active,
 .show-register-form:hover, .show-login-form:hover { opacity: 1; }
 
-.register-form { display: none; }
+.login-form { display: none; }
 
 .r-form { padding-top: 40px; }
 .r-form .form-group { margin-bottom: 25px; }
