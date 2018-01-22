@@ -15,9 +15,7 @@
                 
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 show-forms">
-                    	<span class="show-register-form active">Register</span> 
-                    	<span class="show-forms-divider">/</span> 
-                    	<span class="show-login-form">Login</span>
+                    	<span class="show-login-form active">Login</span>
                     </div>
                 </div>
                 
@@ -66,7 +64,7 @@
                 </div>
                 	
                 <div class="row login-form">
-                    <div class="col-sm-4 col-sm-offset-1">
+                    <div class="col-sm-6">
 						<form role="form" id="login-form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
@@ -86,10 +84,8 @@
                             </div>
 
 				            <button type="submit" class="btn" href="<?php echo base_url('welcome/front');?>">Sign in!</button>
-							<div>
-							<p style="color:white;">Dont have an account?<a class='show-register-form' href="#">Register Now!</p>
-						</div>
 				    	</form>
+						<p style="color:white;">Dont have an account? <a class='show-register-form' href="#">Register Now!</a></p>
                     </div>
                     <div class="col-sm-6 forms-right-icons">
 						<div class="row">

@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="<?php echo base_url('themes/css/business-casual.min.css'); ?>" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?php echo base_url('themes/extend/bootstrap.min.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('themes/css/bootstrap.min.css');?>">
 		<link rel="stylesheet" href="<?php echo base_url('themes/extend/form-elements.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('themes/extend/style.css');?>">
 
