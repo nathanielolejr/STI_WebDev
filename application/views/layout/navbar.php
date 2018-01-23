@@ -13,26 +13,26 @@
             </li>
 
             <li class="dropdown nav-item px-lg-4" >
-              <a class="dropbtn nav-link text-uppercase text-expanded"  href="<?php echo base_url('welcome/Menu');?>">Menu</a>
+              <a class="dropbtn nav-link text-uppercase text-expanded"  href="<?php echo base_url('menu');?>">Menu</a>
               <div class="dropdown-content">
-              <a href="<?php echo base_url('welcome/Coffee');?>">Coffee</a>
-              <a href="<?php echo base_url('welcome/Desserts');?>">Desserts</a>
-              <a href="<?php echo base_url('welcome/Shakes');?>">Shakes & Toppings</a>
-              <a href="<?php echo base_url('welcome/Merch');?>">Merchandise</a>
+              <a href="<?php echo base_url('welcome/coffee');?>">Coffee</a>
+              <a href="<?php echo base_url('welcome/desserts');?>">Desserts</a>
+              <a href="<?php echo base_url('welcome/shakes');?>">Shakes & Toppings</a>
+              <a href="<?php echo base_url('welcome/merch');?>">Merchandise</a>
             </div>
           </li>
             
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
+             <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('about');?>">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/contact');?>">Contact Us</a>
+              <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('contact-us');?>">Contact</a>
             </li>
             <li class="nav-item px-lg-4">
             <?php if($this->session->userdata('user_id') > 0): ?>
               <a class="nav-link text-uppercase text-expanded logout" href="#">Logout</a>
             <?php else: ?>
-              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/login');?>">Login</a>
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('login');?>">Login</a>
             <?php endif;?>
             </li>
           </ul>
