@@ -1,8 +1,7 @@
 
 
 <div id="fh5co-about" data-section="about">
-			<div class="fh5co-2col fh5co-bg to-animate-2">
-      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/drinkscoffemenu.jpg');?>" alt="" >
+			<div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh2">
       </div>
 			<div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -11,11 +10,10 @@
 				<p class="to-animate"><span class="firstcharacter">T</span>aste our rich flavorful dessert, featuring locally roasted coffee beans. Thus, we take pride in our work.Every time you order a beverage from us, we can guarantee that it will be an experience worth having. Whether it's our world famous Cappuccino, Latte, Espresso, American, Mocha Spiced coffee or something as simple as a cup of specialty sourced black coffee.</p>
 				<p class="text-center to-animate"><a href="<?php echo base_url('welcome/Coffee');?>" class="btn btn-primary btn-outline">Explore Our Coffee</a></p>
 			</div>
-		</div>
+    </div>
     
     <div id="fh5co-about" data-section="about">
-      <div class="fh5co-2col fh5co-bg to-animate-2">
-        <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/dessert.jpg');?>" alt="">
+      <div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh">
       </div>  
       <div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -27,8 +25,7 @@
     </div>
     
     <div id="fh5co-about" data-section="about">
-		<div class="fh5co-2col fh5co-bg to-animate-2">
-      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/chocolate-frappe-with-coconut.jpg');?>" alt="">
+		<div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh3">
       </div>
 			<div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -40,8 +37,7 @@
     </div>
     
     <div id="fh5co-about" data-section="about">	
-    <div class="fh5co-2col fh5co-bg to-animate-2">
-      <img class="product-item-img mx-auto d-flex  img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/mug.jpg');?>" alt="">
+    <div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh4">
       </div>  
     <div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">

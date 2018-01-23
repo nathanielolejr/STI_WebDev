@@ -460,3 +460,19 @@ h1 {
       min-height: 300px;
     }
   } 
+
+  .imgh{
+    background:url(../img/dessert.jpg);
+  }
+
+  .imgh2{
+    background:url(../img/drinkscoffemenu.jpg);
+  }
+
+  .imgh3{
+    background:url(../img/chocolate-frappe-with-coconut.jpg);
+  }
+
+  .imgh4{
+    background:url(../img/mug.jpg);
+  }
