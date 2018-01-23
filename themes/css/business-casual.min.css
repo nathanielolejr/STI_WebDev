@@ -30,11 +30,16 @@ p {
  line-height:4rem
 }
 .page-section {
- margin-top:5rem;
+ margin-top:2rem;
  margin-bottom:5rem
 }
+.page-section2 {
+    margin-top:0rem;
+    margin-bottom:0rem
+   }
+
 .section-heading {
- text-transform:uppercase
+ text-transform:uppercase   
 }
 .section-heading .section-heading-upper {
  display:block;
@@ -47,9 +52,20 @@ p {
  font-size:3rem;
  font-weight:100
 }
+
+.section-heading .section-heading-lower2 {
+    display:block;
+    font-size:1.5rem;
+    font-weight:300
+}
+
 .bg-faded {
  background-color:rgba(255,255,255,.85)
 }
+.bg-faded2 {
+    color: aliceblue;
+   }
+
 #mainNav {
  background-color:#C89F6F;
  font-family:Raleway;
@@ -150,30 +166,36 @@ p {
 @media (min-width:992px) {
  .product-item .product-item-title {
   position:relative;
-  z-index:1;
+  z-index:0;
   margin-bottom:-3rem
  }
  .product-item .product-item-img {
   position:relative;
   z-index:0;
-  max-width:60vw
+  max-width:60vw;
+  background-size:contain;
  }
  .product-item .product-item-description {
   position:relative;
-  z-index:1;
+  z-index:0;
   margin-top:-3rem;
   max-width:50vw
  }
+ 
 }
 .list-hours {
  font-size:.9rem
 }
 .list-hours .list-hours-item {
  border-bottom:1px solid rgba(230,167,86,.5);
- padding-bottom:.25rem;
+ padding-bottom:.6rem;
  margin-bottom:1rem;
- font-style:italic
 }
+
+.list-unstyled.list-hours.mb-5.text-left.mx-auto {
+    font-size: 1.1rem;
+}
+
 .list-hours .list-hours-item.today {
  font-weight:700;
  color:#e6a756
@@ -226,7 +248,7 @@ p {
 
 body {
     background-color: #f1f1f1;
-    font-family: Arial;
+   
 }
 
 /* Center website */
@@ -334,3 +356,95 @@ h1 {
 }
 
 
+
+#fh5co-about {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    width: 100%;
+    border: .5px solid#C69C6D;
+    background-color:rgba(255,255,255,.85)
+  }
+  #fh5co-about .fh5co-2col {
+    width: 50%;
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-2col {
+      width: 100%;
+    }
+  }
+  #fh5co-about .fh5co-text {
+    padding: 2em 6em;
+    text-align: left;
+    
+    
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-text {
+      padding: 1em;
+    }
+  }
+  #fh5co-about .fh5co-text .btn {
+    color: #fff;
+  }
+  #fh5co-about .fh5co-text .heading {
+    margin-bottom: 30px;
+    color: rgb(7, 0, 0);
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #fh5co-about .fh5co-text .heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    left: 50%;
+    background: rgb(10, 10, 10);
+    margin-left: -20px;
+    font-family: Arial; 
+  }
+  #fh5co-about .fh5co-text p {
+    line-height: 2;
+    color: #000000;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  #fh5co-about .fh5co-text p span.firstcharacter {
+    float: left;
+    color: #903;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 3px;
+    font-style: italic;
+    top: -20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "Playfair Display", serif;
+  }
+  #fh5co-about .fh5co-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-bg {
+      width: 100%;
+      min-height: 500px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-about .fh5co-bg {
+      width: 100%;
+      min-height: 300px;
+    }
+  } 

@@ -2,7 +2,7 @@
 <style>
   #map
   {
-    height:400px;
+    height:200px;
     width:100%;
   }
   </style>
@@ -14,48 +14,47 @@
               <h2 class="section-heading mb-5">
                 <span class="section-heading-lower">Come and Visit</span>
                 <br>
-                <span class="section-heading-upper">We're Open During</span>
+                <span class="section-heading-lower2">-We're Open-</span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Saturday
-                  <span class="ml-auto">10:00 AM to 5:00 PM</span>
+                  <b><u>Saturday</u></b><br>
+                  <span class="ml-auto"> 10:00 AM to 5:00 PM</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Week Days
+                <b><u>Week Days</u></b><br>
                   <span class="ml-auto">7:00 AM to 8:00 PM</span>
                 </li>
               </ul>
               <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Contacts</span>
+                <span class="section-heading-lower2">-Contacts-</span>
               </h2>
 
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                 <li class="list-unstyled-item list-hours-item d-flex">
-                Mobile Number
+                <b><u>Mobile Number</u></b><br>
                   <span class="ml-auto">0978-872-2818</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Hotline Number
+                <b><u>Hotline Number</u></b><br>
                   <span class="ml-auto">222-145</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Email
+                <b><u>Email</u></b><br>
                   <span class="ml-auto">marshweetcafe@gmail.com</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Facebook
+                <b><u>Facebook</u></b><br>
                   <span class="ml-auto">Marshweet Cafe</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Instagram
+                <b><u>Instagram</u></b><br>
                   <span class="ml-auto">marshweetcafe</span>
                 </li>
               </ul>
               <br>
               <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Location</span>
+                <span class="section-heading-lower2">-Location-</span>
               </h2>
               <p class="address mb-5">
                 <em>
