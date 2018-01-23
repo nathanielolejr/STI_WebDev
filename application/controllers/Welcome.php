@@ -12,7 +12,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/footer');
 
 	}
-	public function Menu()
+	public function menu()
 	{
 		$this->load->view('layout/headerMenu');
 		$this->load->view('layout/title');
@@ -28,7 +28,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/about');
 		$this->load->view('layout/footer');
 	}
-	public function contact()
+	public function contact ()
 	{
 		$this->load->view('layout/headerContact');
 		$this->load->view('layout/title');
@@ -44,7 +44,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/footer');
 	}
 
-	public function Coffee()
+	public function coffee()
 	{
 		$this->load->view('layout/headerMenu');
 		$this->load->view('layout/title');
@@ -53,7 +53,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/footer');
 	}
 
-	public function Desserts()
+	public function desserts()
 	{
 		$this->load->view('layout/headerMenu');
 		$this->load->view('layout/title');
@@ -62,7 +62,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/footer');
 	}
 
-	public function Merch()
+	public function merch()
 	{
 		$this->load->view('layout/headerMenu');
 		$this->load->view('layout/title');
@@ -71,7 +71,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/footer');
 	}
 
-	public function Shakes()
+	public function shakes()
 	{
 		$this->load->view('layout/headerMenu');
 		$this->load->view('layout/title');
