@@ -583,7 +583,7 @@ mark {
 .img-fluid {
 	max-width: 100%;
     height: auto;
-    background-size:contain;
+    
 }
 
 .img-thumbnail {

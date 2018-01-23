@@ -210,7 +210,8 @@ p {
  font-size:1.2rem
 }
 .footer {
- background-color:#C89F6F
+ background-color:#C89F6F;
+
 }
 .text-primary {
  color:#e6a756!important
@@ -366,9 +367,11 @@ h1 {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
+    max-height:100%;
     border: .5px solid#C69C6D;
-    background-color:rgba(255,255,255,.85)
+    background-color:rgba(255,255,255,.85);
+    
   }
   #fh5co-about .fh5co-2col {
     width: 50%;
@@ -378,20 +381,22 @@ h1 {
       width: 100%;
     }
   }
+
   #fh5co-about .fh5co-text {
     padding: 2em 6em;
     text-align: left;
-    
-    
   }
+
   @media screen and (max-width: 1200px) {
     #fh5co-about .fh5co-text {
       padding: 1em;
     }
   }
+
   #fh5co-about .fh5co-text .btn {
     color: #fff;
   }
+  
   #fh5co-about .fh5co-text .heading {
     margin-bottom: 30px;
     color: rgb(7, 0, 0);
@@ -414,6 +419,7 @@ h1 {
   }
   #fh5co-about .fh5co-text p {
     line-height: 2;
+    font-size: 2vh;
     color: #000000;
     text-align: justify;
     text-justify: inter-word;
@@ -431,6 +437,12 @@ h1 {
     position: relative;
     color: rgb(0, 0, 0);
     font-family: "Playfair Display", serif;
+  }
+  .img-fluid{
+      max-height: 100%;
+      max-width: 100%;
+      background-size: cover;
+      
   }
   #fh5co-about .fh5co-bg {
     background-repeat: no-repeat;

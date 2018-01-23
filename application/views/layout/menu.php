@@ -2,7 +2,7 @@
 
 <div id="fh5co-about" data-section="about">
 			<div class="fh5co-2col fh5co-bg to-animate-2">
-      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/drinkscoffemenu.jpg');?>" alt="">
+      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/drinkscoffemenu.jpg');?>" alt="" >
       </div>
 			<div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -15,7 +15,7 @@
     
     <div id="fh5co-about" data-section="about">
       <div class="fh5co-2col fh5co-bg to-animate-2">
-        <img class="product-item-img mx-auto d-flex  img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/dessert.jpg');?>" alt="">
+        <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/dessert.jpg');?>" alt="">
       </div>  
       <div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -28,7 +28,7 @@
     
     <div id="fh5co-about" data-section="about">
 		<div class="fh5co-2col fh5co-bg to-animate-2">
-      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/chocolate-frappe-with-coconut (1).jpg');?>" alt="">
+      <img class="product-item-img mx-auto d-flex img-fluid mb-3 mb-lg-0" src="<?php echo base_url('themes/img/chocolate-frappe-with-coconut.jpg');?>" alt="">
       </div>
 			<div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
