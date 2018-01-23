@@ -84,7 +84,7 @@ img { max-width: 100%; }
 .show-register-form.active, .show-login-form.active,
 .show-register-form:hover, .show-login-form:hover { opacity: 1; }
 
-.login-form { display: none; }
+.register-form { display: none; }
 
 .r-form { padding-top: 40px; }
 .r-form .form-group { margin-bottom: 25px; }
@@ -142,5 +142,9 @@ footer a:hover, footer a:focus { color: #fff; border: 0; }
 	
 	h1, h2 { font-size: 28px; }
 
+}
+
+.hidden {
+	display: none;
 }
 

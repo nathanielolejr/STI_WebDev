@@ -21,7 +21,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('themes/img/apple-touch-icon-72-precomposed.png');?>">
         <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('themes/img/apple-touch-icon-57-precomposed.png');?>">
 
-    </head>
+	</head>
+	
 
     <body>
 
@@ -44,14 +45,16 @@
                     <div class="col-sm-1 col-sm-offset-1 show-forms margin">
                     	<!-- <span class="show-register-form active">Register</span> 
                     	<span class="show-forms-divider">/</span>  -->
-                    	<span class="show-login-form">Login</span>
+                    	Login
                     </div>
                 </div>
                 
                 <div class="row register-form margin">
                     <div class="col-sm-4 col-sm-offset-1 margin">
-						<form role="form" id="signup-form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
-	                    	<div class="form-group">
+						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
+							<div class="alert alert-success hidden signup-alert">
+                            </div>	
+							<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
 	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" required>
 	                        </div>
@@ -65,8 +68,8 @@
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="email">Email</label>
-	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email"required>
-	                        </div>		
+	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email">
+							</div>		
 							<div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
 	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass"required>
@@ -75,7 +78,7 @@
 						</form>
                     </div>
                     <div class="col-sm-6 forms-right-icons">
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
 							<div class="col-sm-10">
 								<h3>Guide</h3>
@@ -88,7 +91,7 @@
 								<h3>Good Aroma To Start Your Day</h3>
 								<p>Life is too short to start your day with broken pieces of yesterday, it will definitely destroy your wonderful today and ruin your great tommorow. So come to Marshweet Café and refresh your mind.</p>
 							</div>
-						</div>
+						</div> -->
                     </div>
                 </div>
                 	
@@ -114,27 +117,10 @@
 
 				            <button type="submit" class="btn">Sign in!</button>
 							<div>
-							<p id="account">Don't have an account ? <a class='show-register-form' href="#">Register Now!</p>
+							<p id="account">Don't have an account ? <a class='show-register-form' href="#">Register Now!</a></p>
 						</div>
 				    	</form>
                     </div>
-                    <!-- <div class="col-sm-6 forms-right-icons">
-						<div class="row">
-							<div class="col-sm-2 icon"><i class="fa fa-user"></i></div>
-							<div class="col-sm-10">
-								<h3>Attention!</h3>
-								<p>You just finish filling up the registration form, and now please fill up again the form in the right side then click "Sign In" and you will become one of us now. Congratulations!</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-2 icon"><i class="fa fa-twitter"></i></div>
-							<div class="col-sm-10">
-								<h3>A Member</h3>
-								<p>What is the recipe for successful achievement? To my mind there are just four essential ingredients: <em>Choose a career you love, give it the best there is in you, seize your opportunities, and be a member of the team.</em></p>
-								<p>-Benjamin Franklin Fairless</p>
-							</div>
-						</div>
-                    </div> -->
                 </div>
                     
         	</div>
