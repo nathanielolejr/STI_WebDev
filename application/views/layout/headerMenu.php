@@ -8,7 +8,8 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="<?php echo base_url('themes/img/Marshweet.png');?>">
 
-    <title>MarshSweet Café | Menu</title>
+    <title>MarshSweet Café |</title>
+
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('themes/css/bootstrap.min.css'); ?>" rel="stylesheet">

@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Come &amp; Join Us Now!</title>
 
-        <!-- CSS -->
 		<!-- <link rel="stylesheet" href="<?php //echo base_url('themes/extend/bootstrap.min.css');?>"> -->
 		<link rel="stylesheet" href="<?php echo base_url('themes/extend/form-elements.css');?>">
         <link rel="stylesheet" href="<?php echo base_url('themes/extend/style.css');?>">
@@ -31,7 +30,7 @@
         	<div class="container">
                 	
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 text">
+                    <div class="col-sm-8 col-sm-offset-2 text margin">
                         <h1>Come &amp; Join Us Now!</h1>
                         <div class="description">
                         	<p>
@@ -42,15 +41,15 @@
                 </div>
                 
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 show-forms">
-                    	<span class="show-register-form active">Register</span> 
-                    	<span class="show-forms-divider">/</span> 
+                    <div class="col-sm-1 col-sm-offset-1 show-forms margin">
+                    	<!-- <span class="show-register-form active">Register</span> 
+                    	<span class="show-forms-divider">/</span>  -->
                     	<span class="show-login-form">Login</span>
                     </div>
                 </div>
                 
-                <div class="row register-form">
-                    <div class="col-sm-4 col-sm-offset-1">
+                <div class="row register-form margin">
+                    <div class="col-sm-4 col-sm-offset-1 margin">
 						<form role="form" id="signup-form" action="<?php echo base_url('user/signup');?>" method="post" class="r-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
@@ -93,8 +92,8 @@
                     </div>
                 </div>
                 	
-                <div class="row login-form">
-                    <div class="col-sm-4 col-sm-offset-1">
+                <div class="row login-form margin">
+                    <div class="col-sm-4 col-sm-offset-1 margin">
 						<form role="form" id="login-form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
@@ -115,11 +114,11 @@
 
 				            <button type="submit" class="btn">Sign in!</button>
 							<div>
-							<p style="color:white;">Dont have an account?<a class='show-register-form' href="#">Register Now!</p>
+							<p id="account">Don't have an account ? <a class='show-register-form' href="#">Register Now!</p>
 						</div>
 				    	</form>
                     </div>
-                    <div class="col-sm-6 forms-right-icons">
+                    <!-- <div class="col-sm-6 forms-right-icons">
 						<div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-user"></i></div>
 							<div class="col-sm-10">
@@ -135,27 +134,12 @@
 								<p>-Benjamin Franklin Fairless</p>
 							</div>
 						</div>
-                    </div>
+                    </div> -->
                 </div>
                     
         	</div>
         </div>
 
-        <!-- Footer -->
-        <footer>
-        	<div class="container">
-        		<div class="row">
-        			
-        			<div class="col-sm-8 col-sm-offset-2">
-        				<div class="footer-border"></div>
-        				<p></p>
-        			</div>
-        			
-        		</div>
-        	</div>
-        </footer>
-
-        <!-- Javascript -->
 		<script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
         
         

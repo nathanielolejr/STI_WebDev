@@ -105,11 +105,14 @@ jQuery(document).ready(function() {
     		}
     	});
     	
-    });
-    
-    /*
-        Registration form validation
-    */
+	});
+	
+	$('.nav-link').on('click', function()
+	{
+		$('.current-page').text(" | " + $(this).text());
+
+	});
+
     $('.r-form input[type="text"], .r-form textarea').on('focus', function() {
     	$(this).removeClass('input-error');
     });
