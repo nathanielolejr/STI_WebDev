@@ -56,23 +56,27 @@
                             </div>	
 							<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
-	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" required>
+	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" autocomplete="off" >
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="lname">Last name</label>
-	                        	<input type="text" name="lname" placeholder="Last name..." class="lname form-control" id="lname"required>
+	                        	<input type="text" name="lname" placeholder="Last name..." class="lname form-control" id="lname" autocomplete="off">
 	                        </div>
 							<div class="form-group">
 	                        	<label class="sr-only" for="username">Username</label>
-	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="user-name"required>
+	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="user-name" autocomplete="off" >
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="email">Email</label>
-	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email">
+	                        	<input type="text" name="email" placeholder="Email..." class="email form-control" id="email" autocomplete="off">
 							</div>		
 							<div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
-	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass"required>
+	                        	<input type="password" name="password" placeholder="Password..." class="password form-control" id="pass" autocomplete="off" >
+							</div>
+							<div class="form-group">
+	                        	<label class="sr-only" for="con-password">Password Confirmation</label>
+	                        	<input type="password" name="con-password" placeholder="Confirm Password..." class="con-password form-control" id="con-pass" autocomplete="off" >
 	                        </div>
 				            <button type="submit" class="btn sign-up-btn">Sign me up!</button>
 						</form>
@@ -100,7 +104,7 @@
 						<form role="form" id="login-form" action="<?php echo base_url('auth/login'); ?>" method="post" class="l-form">
 	                    	<div class="form-group">
 	                    		<label class="sr-only" for="username">Username</label>
-	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username"required>
+	                        	<input type="text" name="username" placeholder="Username..." class="username form-control" id="username" required>
 	                        </div>
 	                        <div class="form-group">
 	                        	<label class="sr-only" for="password">Password</label>
