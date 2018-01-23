@@ -38,7 +38,7 @@
                 <div class="column">
               <div class="content">
                 <img class="img" src="<?php echo base_url('themes/img/Shake-4.jpg');?>" alt="Strawberry Milkshake" style="width:100%">
-                <p class="h3font">Strawberry</p>
+                <p class="h3font">Strawberry Milkshake</p>
               </div>
                 </div>
 
@@ -113,7 +113,7 @@
         <div class="column">
           <div class="content">
             <img class="img" src="<?php echo base_url('themes/img/Toppings-7.jpg');?>" alt="Mocha Spiced" style="width:42%">
-            <p class="h3font">Strawberry Stick-O</p>
+            <p class="h3font">Stick-O</p>
           </div>
         </div>
         
