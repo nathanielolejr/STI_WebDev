@@ -49,13 +49,13 @@ p {
 }
 .section-heading .section-heading-lower {
  display:block;
- font-size:3rem;
+ font-size:8vh;
  font-weight:100
 }
 
 .section-heading .section-heading-lower2 {
     display:block;
-    font-size:1.5rem;
+    font-size:4vh;
     font-weight:300
 }
 
@@ -476,3 +476,10 @@ h1 {
   .imgh4{
     background:url(../img/mug.jpg);
   }
+
+.info{
+    text-align: center;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 2.5vh;
+}

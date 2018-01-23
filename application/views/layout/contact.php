@@ -2,10 +2,26 @@
 <style>
   #map
   {
-    height:200px;
-    width:100%;
+       
+        width: 100%;
+        height: 400px;   
   }
   </style>
+
+<div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                  
+                        
+                        </div>
+                        
+                        <div id="map1" class="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 <section class="page-section cta">
       <div class="container">
         <div class="row">
@@ -16,52 +32,51 @@
                 <br>
                 <span class="section-heading-lower2">-We're Open-</span>
               </h2>
-              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  <b><u>Saturday</u></b><br>
-                  <span class="ml-auto"> 10:00 AM to 5:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Week Days</u></b><br>
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-              </ul>
+                        
+                        <h5 class="info">
+                        -Saturday-<br/>
+                        10:00 AM to 5:00 PM<br/>
+                        <br>
+                        
+                        -Week Days-<br/>
+                        7:00 AM to 8:00 PM<br/>
+                        </h5>
+              <br>
+              <br>
+              <br>
               <h2 class="section-heading mb-5">
                 <span class="section-heading-lower2">-Contacts-</span>
-              </h2>
-
-              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Mobile Number</u></b><br>
-                  <span class="ml-auto">0978-872-2818</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Hotline Number</u></b><br>
-                  <span class="ml-auto">222-145</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Email</u></b><br>
-                  <span class="ml-auto">marshweetcafe@gmail.com</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Facebook</u></b><br>
-                  <span class="ml-auto">Marshweet Cafe</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                <b><u>Instagram</u></b><br>
-                  <span class="ml-auto">marshweetcafe</span>
-                </li>
-              </ul>
+                        </h2>
+                        <h5 class="info">
+                        -Mobile Number-<br/>
+                        0978-872-2818<br/>
+                        <br>
+                        -Hotline Number-<br/>
+                        222-1454<br/>
+                        <br>
+                        -Email-<br/>
+                      marshweetcafe@gmail.com<br/>
+                        <br>
+                        -Facebook-<br/>
+                        Marshweet Cafe<br/>
+                        <br>
+                        -Instagram-<br/>
+                        marshweetcafe<br/>
+                        </h5>
+              <br>
+              <br>  
               <br>
               <h2 class="section-heading mb-5">
                 <span class="section-heading-lower2">-Location-</span>
               </h2>
-              <p class="address mb-5">
-                <em>
-                  Marietta Tower, Echiverri Street
-                  <br>
-                  Iligan City, Lanao del Norte
-                </em>
+                        
+                        <div>
+                        Marietta Tower, Echiverri Street<br />
+                        Iligan City, Lanao del Norte<br />
+                        
+                        </div>
+                <br>
+                <br>
 
                 <div id="map"></div>
                 <script>
