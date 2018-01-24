@@ -54,8 +54,14 @@ $route['menu'] = 'welcome/menu';
 $route['about'] = 'welcome/about';
 $route['contact-us'] = 'welcome/contact';
 $route['login'] = 'welcome/login';
-$route['translate_uri_dashes'] = FALSE;
+$route['menu/coffee'] = 'welcome/coffee';
+$route['menu/desserts'] = 'welcome/desserts';
+$route['menu/shakes-toppings'] = 'welcome/shakes';
+$route['menu/merch'] = 'welcome/merchandise';
 
+
+
+$route['translate_uri_dashes'] = FALSE;
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
