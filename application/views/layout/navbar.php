@@ -26,14 +26,8 @@
               <a href="<?php echo base_url('menu/merch');?>">Merchandise</a>
             </div>
           </li>
-<<<<<<< HEAD
-            
-            <li class="nav-item px-lg-4">
-             <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('about');?>">About</a>
-=======
               <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
->>>>>>> e29c13f47e1edf8bf988b7c496e56849573b9977
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('contact-us');?>">Contact</a>
@@ -49,9 +43,6 @@
         </div>
       </div>
     </nav>
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e29c13f47e1edf8bf988b7c496e56849573b9977
     
