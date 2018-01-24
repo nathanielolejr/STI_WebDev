@@ -10,7 +10,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #42c5ea;
+	color: #fff;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -33,7 +33,7 @@ h3 {
 img { max-width: 100%; }
 
 ::-moz-selection { background: #42c5ea; color: #fff; text-shadow: none; }
-::selection { background: #42c5ea; color: #fff; text-shadow: none; }
+::selection { background: #e6a756; color: #fff; text-shadow: none; }
 
 
 .btn-link-1 {
@@ -89,7 +89,7 @@ img { max-width: 100%; }
 .r-form { padding-top: 40px; }
 .r-form .form-group { margin-bottom: 25px; }
 .r-form textarea { height: 100px; }
-.r-form .input-error { border-color: #42c5ea; }
+.r-form .input-error { border-color: #e6a756; }
 
 .l-form { padding-top: 40px; }
 .l-form .form-group { margin-bottom: 25px; }
