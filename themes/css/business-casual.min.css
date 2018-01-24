@@ -43,8 +43,8 @@ p {
 }
 .section-heading .section-heading-upper {
  display:block;
- font-size:1rem;
- font-weight:800;
+ font-size:3rem;
+ font-weight:400;
   
 }
 .section-heading .section-heading-lower {
@@ -150,7 +150,7 @@ p {
  bottom:-.5rem;
  left:-.5rem;
  right:-.5rem;
- border:.25rem solid rgba(255,255,255,.85)
+ border:.2rem solid rgba(255,255,255,.85)
 }
 @media (min-width:992px) {
  .about-heading .about-heading-img {

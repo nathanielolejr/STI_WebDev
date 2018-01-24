@@ -16,8 +16,8 @@
               
               <div class="row">
                 <div class="column">
-                  <div class="">
                      <div class="content">
+                      <div class="hovereffectimg">
                       <img class="img" src="<?php echo base_url('themes/img/Coffee-1.jpg');?>" alt="Americano" style="width:100%">
                       <p class="h3font">Americano</p>    
                   </div>
