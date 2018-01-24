@@ -52,6 +52,8 @@
                 <div class="row register-form margin">
                     <div class="col-sm-4 col-sm-offset-1 margin">
 						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
+							<div class="alert alert-success hidden signup-alert">
+                            </div>	
 							<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
 	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" autocomplete="off" >
