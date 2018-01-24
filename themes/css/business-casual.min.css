@@ -518,5 +518,5 @@ h1 {
 figure {
 	width: 100%;
 	background: #fff;
-	
+    overflow: hidden;
 }
