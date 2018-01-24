@@ -5,7 +5,8 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="<?php echo base_url('themes/img/Marshweet.png');?>">
         <title>Come &amp; Join Us Now!</title>
 
 		<!-- <link rel="stylesheet" href="<?php //echo base_url('themes/extend/bootstrap.min.css');?>"> -->
@@ -15,11 +16,7 @@
 	
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="<?php echo base_url('themes/img/favicon.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url('themes/img/apple-touch-icon-144-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('themes/img/apple-touch-icon-114-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url('themes/img/apple-touch-icon-72-precomposed.png');?>">
-        <link rel="apple-touch-icon-precomposed" href="<?php echo base_url('themes/img/apple-touch-icon-57-precomposed.png');?>">
+        <link rel="shortcut icon" href="<?php echo base_url('themes/img/Marshweet.png');?>">
 
 	</head>
 	
