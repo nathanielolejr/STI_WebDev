@@ -15,30 +15,30 @@
               
               
               <div class="row">
-                <div class="column">
+                <div class="hover01 column">
                 <div class="content">
-                <img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="Americano" style="width:90%">
+                <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="Americano" style="width:50%"></figure>
                <p class="h3font">String Bag</p>             
             </div>
         </div>
 
-  <div class="column">
+  <div class="hover01 column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Afforgato" style="width:100%">
+      <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Afforgato" style="width:55%"></figure>
       <p class="h3font">Keychains</p>
     </div>
   </div>
 
-  <div class="column">
+  <div class="hover01 column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Espresso" style="width:100%">
+      <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Espresso" style="width:100%"></figure>
       <p class="h3font">Tumbler</p>
     </div>
   </div>
 
-  <div class="column">
+  <div class="hover01 column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Merchandise-4.jpg');?>" alt="Espresso" style="width:37%">
+      <figure><img class="img" src="<?php echo base_url('themes/img/5-i-turn-coffee-into-code.jpg');?>" alt="Espresso" style="width:100%"></figure>
       <p class="h3font">Mug</p>
     </div>
   </div>
