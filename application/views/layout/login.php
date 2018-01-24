@@ -73,7 +73,7 @@
 	                        	<label class="sr-only" for="con-password">Password Confirmation</label>
 	                        	<input type="password" name="con-password" placeholder="Confirm Password..." class="con-password form-control" id="con-pass" autocomplete="off" >
 	                        </div>
-				            <button type="submit" class="btn sign-up-btn">Sign me up!</button>
+				            <button type="submit" class="btn btn-primary btn-xl">Sign me up!</button>
 						</form>
                     </div>
                     <div class="col-sm-6 forms-right-icons">
@@ -108,7 +108,12 @@
                             <div class="alert alert-success hidden success-alert">
                                 <strong>Success!</strong> You have created an account. You can now login.
                             </div>
-				            <button type="submit" class="btn">Sign in!</button>
+
+                            <div class="alert alert-success hidden login-alert">
+                                <strong>You have login successfully!</strong>
+                            </div>
+
+				            <button type="submit" class="btn btn-primary btn-xl"	>Sign in!</button>
 							<div>
 							<p id="account">Don't have an account ? <a class='show-register-form' href="#">Register Now!</a></p>
 						</div>
