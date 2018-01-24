@@ -43,14 +43,14 @@ p {
 }
 .section-heading .section-heading-upper {
  display:block;
- font-size:3rem;
+ font-size:5vh;
  font-weight:400;
 
   
 }
 .section-heading .section-heading-lower {
  display:block;
- font-size:8vh;
+ font-size:6vh;
  font-weight:100
 }
 
