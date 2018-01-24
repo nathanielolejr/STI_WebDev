@@ -14,7 +14,7 @@ class Welcome extends CI_Controller {
 	}
 	public function menu()
 	{
-		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/menu');
@@ -22,7 +22,7 @@ class Welcome extends CI_Controller {
 	}
 	public function about()
 	{
-		$this->load->view('layout/headerAbout');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/about');
@@ -30,7 +30,7 @@ class Welcome extends CI_Controller {
 	}
 	public function contact ()
 	{
-		$this->load->view('layout/headerContact');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/contact');
@@ -38,15 +38,16 @@ class Welcome extends CI_Controller {
 	}
 	public function login()
 	{
-		$this->load->view('layout/headerLogin');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
+		$this->load->view('layout/navbar');
 		$this->load->view('layout/login');
 		$this->load->view('layout/footer');
 	}
 
 	public function coffee()
 	{
-		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/Coffee');
@@ -55,7 +56,7 @@ class Welcome extends CI_Controller {
 
 	public function desserts()
 	{
-		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/Desserts');
@@ -64,7 +65,7 @@ class Welcome extends CI_Controller {
 
 	public function merch()
 	{
-		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/merch');
@@ -73,7 +74,7 @@ class Welcome extends CI_Controller {
 
 	public function shakes()
 	{
-		$this->load->view('layout/headerMenu');
+		$this->load->view('layout/header');
 		$this->load->view('layout/title');
 		$this->load->view('layout/navbar');
 		$this->load->view('layout/Shakes');
