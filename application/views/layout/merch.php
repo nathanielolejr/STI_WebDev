@@ -17,14 +17,14 @@
               <div class="row">
                 <div class="column">
                 <div class="content">
-                <img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="Americano" style="width:100%">
+                <img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="Americano" style="width:90%">
                <p class="h3font">String Bag</p>             
             </div>
         </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Afforgato" style="width:60%">
+      <img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Afforgato" style="width:100%">
       <p class="h3font">Keychains</p>
     </div>
   </div>
@@ -32,13 +32,13 @@
   <div class="column">
     <div class="content">
       <img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Espresso" style="width:100%">
-      <p class="h3font">Tumblur</p>
+      <p class="h3font">Tumbler</p>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-      <img class="img" src="<?php echo base_url('themes/img/Merchandise-4.jpg');?>" alt="Espresso" style="width:67%">
+      <img class="img" src="<?php echo base_url('themes/img/Merchandise-4.jpg');?>" alt="Espresso" style="width:37%">
       <p class="h3font">Mug</p>
     </div>
   </div>
@@ -48,7 +48,7 @@
 
 
 </div>
-     it st       </div>
+     </div>
           </div>
         </div>
       </div>
