@@ -4324,8 +4324,8 @@ a.thumbnail.active,a.thumbnail:focus,a.thumbnail:hover{
     color:inherit
 }
 .alert-success{
-    color:#3c763d;
-    background-color:#dff0d8;
+    color:#f2f9ff;
+    background-color:#c89f6f;
     border-color:#d6e9c6
 }
 .alert-success hr{

@@ -4,7 +4,6 @@ jQuery(document).ready(function() {
     /*
         Fullscreen background
     */
-
     
     /*
         Forms show / hide
@@ -54,7 +53,8 @@ jQuery(document).ready(function() {
 					$('div.success-alert').removeClass('hidden');
 					$("div.success-alert").fadeTo(2000, 200).slideUp(500, function(){
 						 $("div.success-alert").slideUp(500);
-					 });
+					});
+					
 				   }
 				   
 
@@ -74,12 +74,7 @@ jQuery(document).ready(function() {
 				console.log(response);
     			if (response == "success") 
     			{
-    				$('div.login-alert').removeClass('hidden');
-                    $("div.login-alert").fadeTo(2000, 100).slideUp(500, function(){
-                    $("div.login-alert").slideUp(500);
-                    });
-
-                    window.location = base_url+'welcome/index';
+                    window.location = base_url;
     			}	
 		    }
 		});
@@ -92,7 +87,7 @@ jQuery(document).ready(function() {
 				type    : "POST",
 				url     : base_url + "auth/logout",
 				complete: function(){
-					location.reload();
+					window.location = base_url+ 'welcome/login';
 				}
 
 			});
@@ -144,6 +139,20 @@ jQuery(document).ready(function() {
     	});
     	
     });
-    
-    
+	
+	function login_alert() {
+		var user_id = $('input[name="login_status"]').val();
+
+		if(user_id > 0 && (window.location.href == base_url)) {
+			$('div.login-alert').removeAttr('hidden');
+
+			$("div.login-alert").fadeTo(2000, 100).slideUp(500, function(){
+				$("div.login-alert").slideUp(500);
+			});
+		}
+		//$('div.login-alert').fadeOut(2000,200);
+	}
+	
+	
+	login_alert();
 });
