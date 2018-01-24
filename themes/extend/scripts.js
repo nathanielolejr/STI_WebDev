@@ -71,6 +71,7 @@ jQuery(document).ready(function() {
 			data    : $(this).serialize(),
 			dataType: 'json',
 			success : function(response) {
+				console.log(response);
     			if (response == "success") 
     			{
     				$('div.login-alert').removeClass('hidden');
@@ -78,7 +79,7 @@ jQuery(document).ready(function() {
                     $("div.login-alert").slideUp(500);
                     });
 
-                    window.location.replace(base_url+'welcome/index');
+                    window.location = base_url+'welcome/index';
     			}	
 		    }
 		});

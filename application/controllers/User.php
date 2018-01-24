@@ -25,12 +25,11 @@ class User extends CI_Controller
               'max_length[20]' =>'Last Name cannot exceed more than 20 characters.'));
         $this->form_validation->set_rules('email','Email','required|valid_email', 
         array('valid_email' =>'Please enter a Valid Email.'));
-        $this->form_validation->set_rules('username','Username','required|min_length[5]|max_length[12]|is_unique[users.username]', 
+        $this->form_validation->set_rules('username','Username','required|min_length[5]|max_length[20]|is_unique[users.username]', 
         array('valid_email' =>'Please enter a Valid Email.',
               'min_length[5]' =>'Username cannot be below 5 characters.',
-              'max_length[12]' =>'Username cannot exceed more than 20 characters.'));
+              'max_length[20]' =>'Username cannot exceed more than 20 characters.'));
         $this->form_validation->set_rules('password','Password','required');
-
         $this->form_validation->set_rules('con-password','Password Confirmation','required|matches[password]');
         
        
