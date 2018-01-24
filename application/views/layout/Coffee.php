@@ -14,15 +14,15 @@
               </h2>
               
               
-              <div class="row">
-                <div class="column">
-                  <div class="">
-                     <div class="content">
-                      <img class="img" src="<?php echo base_url('themes/img/Coffee-1.jpg');?>" alt="Americano" style="width:100%">
-                      <p class="h3font">Americano</p>    
-                  </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="column">
+      <div class="">
+        <div class="content">
+        <img class="img" src="<?php echo base_url('themes/img/Coffee-1.jpg');?>" alt="Americano" style="width:100%">
+        <p class="h3font">Americano</p>    
+      </div>
+    </div>
+  </div>
 
   <div class="column">
     <div class="content">
@@ -45,19 +45,18 @@
   </div>
 </div>
 
-<div class="column">
+<div class="hover01 column">
   <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Coffee-5.jpg');?>" alt="Latte" style="width:100%">
+    <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-5.jpg');?>" alt="Latte" style="width:100%"></figure>
     <p class="h3font">Latte</p>
   </div>
 </div>
 
-<div class="column">
-  <div class="content">
-    <img class="img" src="<?php echo base_url('themes/img/Coffee-6.jpg');?>" alt="Mocha Spiced" style="width:100%">
+<div class="hover01 column">
+  <div class="content" >
+    <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-6.jpg');?>" alt="Mocha Spiced" style="width:100%"></figure>
     <p class="h3font">Mocha Spiced</p>
   </div>
-</div>
 
 </div>
             </div>
@@ -65,3 +64,6 @@
         </div>
       </div>
     </section>
+
+
+    
