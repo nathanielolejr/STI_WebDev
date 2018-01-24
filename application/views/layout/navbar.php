@@ -17,7 +17,7 @@
               <div class="dropdown-content">
               <a href="<?php echo base_url('menu/coffee');?>">Coffee</a>
               <a href="<?php echo base_url('menu/desserts');?>">Desserts</a>
-              <a href="<?php echo base_url('menu/shakes-toppings');?>">Shakes&Toppings</a>
+              <a href="<?php echo base_url('menu/shakes-toppings');?>">Shakes & Toppings</a>
               <a href="<?php echo base_url('menu/merch');?>">Merchandise</a>
             </div>
           </li>

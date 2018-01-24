@@ -33,15 +33,15 @@
 
   <div class="hover01 column">
     <div class="content">
-      <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-3.jpg');?>" alt="Espresso" style="width:100%"></figure>
-      <p class="h3font">Espresso</p>
+      <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-3.jpg');?>" alt="Cappuccino" style="width:100%"></figure>
+      <p class="h3font">Cappuccino</p>
     </div>
   </div>
   
   <div class="hover01 column">
   <div class="content">
-    <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-4.jpg');?>" alt="Cappuccino" style="width:100%"></figure>
-    <p class="h3font">Cappuccino</p>
+    <figure><img class="img" src="<?php echo base_url('themes/img/Coffee-4.jpg');?>" alt="Espresso" style="width:100%"></figure>
+    <p class="h3font">Espresso</p>
   </div>
 </div>
 
