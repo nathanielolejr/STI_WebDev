@@ -57,7 +57,7 @@ $route['login'] = 'welcome/login';
 $route['menu/coffee'] = 'welcome/coffee';
 $route['menu/desserts'] = 'welcome/desserts';
 $route['menu/shakes-toppings'] = 'welcome/shakes';
-$route['menu/merch'] = 'welcome/merchandise';
+$route['menu/merch'] = 'welcome/merch';
 
 
 
