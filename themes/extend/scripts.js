@@ -14,6 +14,7 @@ jQuery(document).ready(function() {
     		$('.show-login-form').removeClass('active');
     		$(this).addClass('active');
     		$('.login-form').fadeOut('fast', function(){
+				$('.show-forms').text('Register');
 				$('.register-form').fadeIn('fast');
 				$('span.active').text('Register');
     		});
@@ -38,12 +39,24 @@ jQuery(document).ready(function() {
 			   type: "POST",
 			   url : base_url + "user/signup",
 			   data: $(this).serialize(),
-			   complete: function() {
-				   $('span.show-login-form').trigger('click');
-                   $('div.success-alert').removeClass('hidden');
-                   $("div.success-alert").fadeTo(2000, 200).slideUp(500, function(){
-                        $("div.success-alert").slideUp(500);
-                    });
+			   dataType: 'text',
+			   complete: function(response) {
+				console.log(response.responseText);
+				   if(response.responseText != 'success'){
+					$('div.signup-alert').removeClass('hidden');
+					$('div.signup-alert').append(response.responseText);
+				   }
+				   else{
+    				$('.register-form').fadeOut('fast', function(){
+    					$('.login-form').fadeIn('fast');
+					});
+					$('.show-forms').text('Login');
+					$('div.success-alert').removeClass('hidden');
+					$("div.success-alert").fadeTo(2000, 200).slideUp(500, function(){
+						 $("div.success-alert").slideUp(500);
+					 });
+				   }
+				   
 
 			   } // serializes the form's elements.
 		});
@@ -58,6 +71,7 @@ jQuery(document).ready(function() {
 			data    : $(this).serialize(),
 			dataType: 'json',
 			success : function(response) {
+				console.log(response);
     			if (response == "success") 
     			{
     				$('div.login-alert').removeClass('hidden');
@@ -65,7 +79,7 @@ jQuery(document).ready(function() {
                     $("div.login-alert").slideUp(500);
                     });
 
-                    window.location.replace(base_url+'welcome/index');
+                    window.location = base_url+'welcome/index';
     			}	
 		    }
 		});
@@ -105,11 +119,14 @@ jQuery(document).ready(function() {
     		}
     	});
     	
-    });
-    
-    /*
-        Registration form validation
-    */
+	});
+	
+	$('.nav-link').on('click', function()
+	{
+		$('.current-page').text(" | " + $(this).text());
+
+	});
+
     $('.r-form input[type="text"], .r-form textarea').on('focus', function() {
     	$(this).removeClass('input-error');
     });

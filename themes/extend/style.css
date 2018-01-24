@@ -53,12 +53,21 @@ img { max-width: 100%; }
 	outline: 0; opacity: 0.6; 
 	background: #555; background: rgba(0, 0, 0, 0.3); color: #fff;
 }
+.margin{
+	margin : 0 auto;
+}
+#account {
+	color:white;
+}
+.show-register-form {
+	color:#fd7e14;
+}
 
 
 
 /***** Top content *****/
 
-.top-content { padding: 60px 0 80px 0; }
+/* .top-content { padding: 10px 0 80px 0; } */
 .top-content .text { color: #fff; }
 .top-content .text h1 { color: #fff; }
 .top-content .description { margin: 20px 0 10px 0; }
@@ -75,7 +84,7 @@ img { max-width: 100%; }
 .show-register-form.active, .show-login-form.active,
 .show-register-form:hover, .show-login-form:hover { opacity: 1; }
 
-.login-form { display: none; }
+.register-form { display: none; }
 
 .r-form { padding-top: 40px; }
 .r-form .form-group { margin-bottom: 25px; }
@@ -87,7 +96,7 @@ img { max-width: 100%; }
 .l-form .input-error { border-color: #42c5ea; }
 
 .forms-right-icons .row { padding-bottom: 15px; }
-.forms-right-icons { padding-top: 40px; color: #fff; text-align: left; }
+.forms-right-icons { padding-top: 20px; color: #fff; text-align: left; }
 .forms-right-icons h3 { margin-top: 0; color: #fff; }
 .forms-right-icons .icon { text-align: right; font-size: 30px; line-height: 34px; }
 
@@ -133,5 +142,9 @@ footer a:hover, footer a:focus { color: #fff; border: 0; }
 	
 	h1, h2 { font-size: 28px; }
 
+}
+
+.hidden {
+	display: none;
 }
 
