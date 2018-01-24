@@ -14,6 +14,7 @@
     <script src="<?php echo base_url('themes/js/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?php echo base_url('themes/extend/scripts.js');?>"></script>
     <script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
+    
 
   </body>
 
