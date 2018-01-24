@@ -53,7 +53,7 @@
                 <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-6.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></figure>
-                <p class="h3font">Thick Chocolate</p>
+                <p class="h3font">Thick Chocolate Milkshake</p>
               </div>
                 </div>
               </div>
