@@ -4,7 +4,7 @@
 <body>
 
 <section class="page-section cta">
-      <div class="container">
+      
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
@@ -16,9 +16,11 @@
               
               <div class="row">
                 <div class="column">
-                <div class="content">
-                <img class="img" src="<?php echo base_url('themes/img/Coffee-1.jpg');?>" alt="Americano" style="width:100%">
-               <p class="h3font">Americano</p>             
+                  <div class="">
+                     <div class="content">
+                      <img class="img" src="<?php echo base_url('themes/img/Coffee-1.jpg');?>" alt="Americano" style="width:100%">
+                      <p class="h3font">Americano</p>    
+                  </div>
             </div>
         </div>
 
