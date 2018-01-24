@@ -15,42 +15,42 @@
 
               
               <div class="row">
-                <div class="hover01 column">
+                <div class="hover09 column">
                   <div class="content">
                     <figure><img class="img" src="<?php echo base_url('themes/img/Shake-1.jpg');?>" alt="Banana Milkshake" style="width:100%"></figure>
                     <p class="h3font">Banana Milkshake</p>             
                   </div>
                 </div>
 
-                <div class="hover01 column">
+                <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-2.jpg');?>" alt="Cookies N Cream" style="width:100%"></figure>
                 <p class="h3font">Cookies N Cream</p>
               </div>
                 </div>
 
-                <div class="hover01 column">
+                <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-3.png');?>" alt="Peppermint Mocha" style="width:100%"></figure>
                 <p class="h3font">Peppermint Mocha</p>
               </div>
                 </div>
   
-                <div class="hover01 column">
+                <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-4.jpg');?>" alt="Strawberry Milkshake" style="width:100%"></figure>
                 <p class="h3font">Strawberry Milkshake</p>
               </div>
                 </div>
 
-                <div class="hover01 column">
+                <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-5.jpg');?>" alt="Sweet Potato Almond" style="width:100%"></figure>
                 <p class="h3font">Sweet Potato Almond</p>
               </div>
                 </div>
 
-                <div class="hover01 column">
+                <div class="hover09 column">
               <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Shake-6.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></figure>
                 <p class="h3font">Thick Chocolate</p>
@@ -76,56 +76,56 @@
               
               
               <div class="row">
-                <div class="hover01 column">
+                <div class="hover06 column">
                 <div class="content">
                 <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-1.jpg');?>" alt="Americano" style="width:38%"></figure>
                <p class="h3font">Chocolate Bar</p>             
             </div>
           </div>
   
-          <div class="hover01 column">
+          <div class="hover06 column">
             <div class="content">
               <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-2.png');?>" alt="Afforgato" style="width:55%"></figure>
               <p class="h3font">Banana</p>
             </div>
           </div>
         
-          <div class="hover01 column">
+          <div class="hover06 column">
             <div class="content">
               <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-3.jpg');?>" alt="Espresso" style="width:38%"></figure>
               <p class="h3font">Melted Chocolate</p>
             </div>
           </div>
           
-          <div class="hover01 column">
+          <div class="hover06 column">
           <div class="content">
             <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-4.jpg');?>" alt="Cappuccino" style="width:55%"></figure>
             <p class="h3font">Marshmallow</p>
           </div>
         </div>
         
-        <div class="hover01 column">
+        <div class="hover06 column">
           <div class="content">
             <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-5.jpg');?>" alt="Latte" style="width:55%"></figure>
             <p class="h3font">Oreo</p>
           </div>
         </div>
         
-        <div class="hover01 column">
+        <div class="hover06 column">
           <div class="content">
             <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-7.jpg');?>" alt="Mocha Spiced" style="width:50%"></figure>
             <p class="h3font">Stick-O</p>
           </div>
         </div>
         
-        <div class="hover01 column">
+        <div class="hover06 column">
           <div class="content">
             <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-8.jpg');?>" alt="Mocha Spiced" style="width:50%"></figure>
             <p class="h3font">Strawberry</p>
           </div>
         </div>
         
-        <div class="hover01 column">
+        <div class="hover06 column">
           <div class="content">
             <figure><img class="img" src="<?php echo base_url('themes/img/Toppings-9.jpg');?>" alt="Mocha Spiced" style="width:55%"></figure>
             <p class="h3font">Vanilla Ice Cream</p>
@@ -141,11 +141,5 @@
     </div>
   </div>
 </div>
+</body>
 
-
-
-
-
-
-
-  </body>
