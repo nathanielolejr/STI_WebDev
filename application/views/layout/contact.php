@@ -68,12 +68,10 @@
               <h2 class="section-heading mb-5">
                 <span class="section-heading-lower2">-Location-</span>
               </h2>
+                        <h5 class="info">
+                        Marietta Tower, Echiverri Street<br/>
+                        Iligan City, Lanao del Norte<br/>
                         
-                        <div>
-                        Marietta Tower, Echiverri Street<br />
-                        Iligan City, Lanao del Norte<br />
-                        
-                        </div>
                 <br>
                 <br>
 
