@@ -1,3 +1,8 @@
+
+<input type="hidden" name="login_status" value="<?php echo $this->session->userdata('user_id');?>"/>
+<div class="alert alert-success login-alert col-md-3 offset-sm-8" hidden>
+  <strong>Welcome you have successfully login!</strong>
+</div>
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Marshweet Café</a>
@@ -21,9 +26,14 @@
               <a href="<?php echo base_url('menu/merch');?>">Merchandise</a>
             </div>
           </li>
+<<<<<<< HEAD
             
             <li class="nav-item px-lg-4">
              <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('about');?>">About</a>
+=======
+              <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
+>>>>>>> e29c13f47e1edf8bf988b7c496e56849573b9977
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('contact-us');?>">Contact</a>
@@ -39,6 +49,9 @@
         </div>
       </div>
     </nav>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e29c13f47e1edf8bf988b7c496e56849573b9977
     
