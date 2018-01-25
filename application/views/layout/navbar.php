@@ -5,10 +5,11 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Marshweet Café</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="<?php echo base_url();?>">Marshweet Café</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item  px-lg-4">
@@ -17,21 +18,26 @@
               </a>
             </li>
 
-            <li class="dropdown nav-item px-lg-4" >
+            <li class="dropdown nav-item px-lg-4">
               <a class="dropbtn nav-link text-uppercase text-expanded"  href="<?php echo base_url('menu');?>">Menu</a>
               <div class="dropdown-content">
               <a href="<?php echo base_url('menu/coffee');?>">Coffee</a>
               <a href="<?php echo base_url('menu/desserts');?>">Desserts</a>
-              <a href="<?php echo base_url('menu/shakes-toppings');?>">Shakes & Toppings</a>
+              <a href="<?php echo base_url('menu/shakes-toppings');?>">Shakes</a>
               <a href="<?php echo base_url('menu/merch');?>">Merchandise</a>
             </div>
           </li>
+
+         
+
               <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('welcome/about');?>">About</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded"  href="<?php echo base_url('contact-us');?>">Contact</a>
             </li>
+
+
             <li class="nav-item px-lg-4">
             <?php if($this->session->userdata('user_id') > 0): ?>
               <a class="nav-link text-uppercase text-expanded logout" href="#">Logout</a>
@@ -39,6 +45,7 @@
               <a class="nav-link text-uppercase text-expanded" href="<?php echo base_url('login');?>">Login</a>
             <?php endif;?>
             </li>
+
           </ul>
         </div>
       </div>
