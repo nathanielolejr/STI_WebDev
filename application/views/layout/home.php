@@ -50,3 +50,7 @@
         <p class="text-center to-animate"><a href="<?php echo base_url('welcome/Desserts');?>" class="btn btn-primary btn-outline">Explore Our Desserts</a></p>
       </div>
     </div>
+  </div>
+</div>
+</div>
+</section>
