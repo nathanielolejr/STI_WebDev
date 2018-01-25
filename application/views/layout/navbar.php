@@ -1,4 +1,6 @@
 
+
+<div class="siteheader">
 <input type="hidden" name="login_status" value="<?php echo $this->session->userdata('user_id');?>"/>
 <div class="alert alert-success login-alert col-md-3 offset-sm-8" hidden>
   <strong>Welcome you have successfully login!</strong>
@@ -43,6 +45,8 @@
         </div>
       </div>
     </nav>
+  </div>
+
 
 
     
