@@ -1,10 +1,10 @@
 <section class="page-section clearfix" id='home-section'>
       <div class="container">
-        <div class="intro">
+        <div class="intro" style="padding-left: 8%;">
           <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
-          <div class="text-center bg-faded p-5 col-md-12 rounded" style="">
+          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
             <div class="row" >
-              <img class="center img-responsive ing-fluid rounded img-fluid" src="<?php echo base_url('themes/img/home.jpg'); ?>" alt="">
+              
             </div>
             <div class="row">
               <div class="col-xl-9 mx-auto cta">
