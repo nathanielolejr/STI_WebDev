@@ -149,5 +149,8 @@ footer a:hover, footer a:focus { color: #fff; border: 0; }
 }
 
 .background {
-	background-color: #fd7e14;
+	background-color: #C89F6F;
+}
+.left {
+	text-align: left !important;
 }

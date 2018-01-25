@@ -318,9 +318,11 @@ th {
 	text-align: inherit
 }
 
-label {
-	display: inline-block;
-	margin-bottom: .5rem
+label{
+    display:inline-block;
+    max-width:100%;
+    margin-bottom:5px;
+    font-weight:700
 }
 
 button {
@@ -7085,29 +7087,23 @@ a.bg-dark:hover {
 	}
 }
 
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	-webkit-clip-path: inset(50%);
-	clip-path: inset(50%);
-	border: 0
+.sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    border:0
 }
-
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-	position: static;
-	width: auto;
-	height: auto;
-	overflow: visible;
-	clip: auto;
-	white-space: normal;
-	-webkit-clip-path: none;
-	clip-path: none
+.sr-only-focusable:active,.sr-only-focusable:focus{
+    position:static;
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    clip:auto
 }
 
 .w-25 {
