@@ -42,8 +42,23 @@
 	margin: 0;
 	padding: 0;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 3vh;
 }
+
+.grid figcaption span {
+	margin: 0;
+	padding: 0;
+    color: #fff;
+    font-size: 2vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .grid figcaption {
+      width: 100%;
+      min-height: 200px;
+    }
+  } 
 
 
 
@@ -82,7 +97,7 @@
 }
 
 .cs-style-1 figcaption h3 {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .cs-style-1 figcaption span {

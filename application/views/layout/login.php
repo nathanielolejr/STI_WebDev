@@ -25,20 +25,11 @@
                         	</div>
                 
                 <div class="row register-form margin">
-<<<<<<< HEAD
 					<div class = "background">
                     <div class="col-sm-4 col-sm-offset-1 margin">
 						<div class="alert alert-success hidden signup-alert">
                         </div>
 						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
-							<div class="alert alert-success hidden signup-alert">
-                            </div>	
-=======
-					<div class = "">
-                    	<div class="col-sm-4 col-sm-offset-1 margin background rounded left">
-							
-							<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
->>>>>>> dcf597c43da7464ae538a40cff61bbb9b7718ee6
 							<div class="form-group">
 	                    		<label class="left" for="fname">First name</label>
 	                        	<input type="text" name="fname" placeholder="First name..." class="fname form-control" id="fname" autocomplete="off" >
