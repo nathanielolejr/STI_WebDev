@@ -52,13 +52,17 @@
                         <br>
                         -Hotline Number-<br/>
                         222-1454<br/>
-                        <br>
-                        -Email-<br/>
-                      marshweetcafe@gmail.com<br/>
-                        <br>
+              <br>
+              <br>
+              <br>
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-lower2">-Email-</span>
+                        </h2>
+                        <h5 class="info">
+                        -Gmail-</br>
+                        <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">marshweetcafe@gmail.com</a></br>
                         -Facebook-<br/>
                         Marshweet Cafe<br/>
-                        <br>
                         -Instagram-<br/>
                         marshweetcafe<br/>
                         </h5>
