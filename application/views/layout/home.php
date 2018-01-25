@@ -4,6 +4,7 @@
           <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
           <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
             <div class="row" >
+
             </div>
             <div class="row">
               <div class="col-xl-9 mx-auto cta">
@@ -38,3 +39,7 @@
         <p class="text-center to-animate"><a href="<?php echo base_url('welcome/Desserts');?>" class="btn btn-primary btn-outline">Explore Our Desserts</a></p>
       </div>
     </div>
+</div>
+</div>
+</div>
+</section>
