@@ -1,4 +1,4 @@
- 
+ </div>
     <footer class="footer text-faded text-center py-5"> 
       <div class="container">
         

@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
 				console.log(response.responseText);
 				   if(response.responseText != 'success'){
 					$('div.signup-alert').removeClass('hidden');
-					$('div.signup-alert').append(response.responseText);
+					$('div.signup-alert').html(response.responseText);
 				   }
 				   else{
     				$('.register-form').fadeOut('fast', function(){
@@ -115,12 +115,135 @@ jQuery(document).ready(function() {
     	});
     	
 	});
-	
-	$('.nav-link').on('click', function()
-	{
-		$('.current-page').text(" | " + $(this).text());
 
+	$('.navigation').on('click', function(){
+		var webpage  = $(this).attr('data-name');
+		var $content = $('.page-content');
+		switch(webpage) {
+			case 'contact-page':
+				$.ajax({
+					type   : 'text',
+					url    : base_url + "welcome/contact",
+					success: function(response) {
+						$content.html(response);
+					}
+				});
+			break;
+			case 'home-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/home",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'logo-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/home",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'coffee-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/coffee",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'desserts-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/desserts",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'shakes-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/shakes",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'merchandise-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/merch",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'logout-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/login",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'login-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/login",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'menu-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/menu",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'home-about':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/about",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			case 'contact-page':
+				$.ajax({
+				type   : 'text',
+				url    : base_url + "welcome/contact",
+				success: function(response) {
+					$content.html(response);
+				}
+			});
+			break;
+			
+			
+			
+			
+			
+			
+			
+			
+			default:
+			break;
+
+		}
+
+		return false;
 	});
+
 
     $('.r-form input[type="text"], .r-form textarea').on('focus', function() {
     	$(this).removeClass('input-error');

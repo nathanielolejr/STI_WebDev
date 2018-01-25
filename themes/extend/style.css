@@ -148,3 +148,6 @@ footer a:hover, footer a:focus { color: #fff; border: 0; }
 	display: none;
 }
 
+.background {
+	background-color: #fd7e14;
+}

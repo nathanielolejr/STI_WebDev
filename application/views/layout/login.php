@@ -38,6 +38,7 @@
                     </div>
                 </div>
                 
+			
                 <div class="row">
                     <div class="col-sm-1 col-sm-offset-1 show-forms margin">
                     	<!-- <span class="show-register-form active">Register</span> 
@@ -47,7 +48,9 @@
                 </div>
                 
                 <div class="row register-form margin">
+					<div class = "background">
                     <div class="col-sm-4 col-sm-offset-1 margin">
+					
 						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
 							<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
@@ -75,7 +78,8 @@
 	                        </div>
 				            <button type="submit" class="btn btn-primary btn-xl">Sign me up!</button>
 						</form>
-                    </div>
+						</div>    
+					</div>
                     <div class="col-sm-6 forms-right-icons">
 						<!-- <div class="row">
 							<div class="col-sm-2 icon"><i class="fa fa-pencil"></i></div>
@@ -119,8 +123,7 @@
 						</div>
 				    	</form>
                     </div>
-                </div>
-                    
+                </div>         
         	</div>
         </div>
 
