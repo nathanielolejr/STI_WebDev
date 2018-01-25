@@ -34,9 +34,9 @@
             </li>
             <li class="nav-item px-lg-4">
             <?php if($this->session->userdata('user_id') > 0): ?>
-              <a class="nav-link text-uppercase text-expanded logout navigation" href="#" data-name="logout-page">Logout</a>
+              <a class="nav-link text-uppercase text-expanded logout navigation" href="#" data-name="login-page">Logout</a>
             <?php else: ?>
-              <a class="nav-link text-uppercase text-expanded navigation" href="#" data-name="login-page">Login</a>
+              <a class="nav-link text-uppercase text-expanded login navigation" href="#" data-name="login-page">Login</a>
             <?php endif;?>
             </li>
           </ul>

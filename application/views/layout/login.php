@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="<?php echo base_url('themes/img/Marshweet.png');?>">
-        <title>Come &amp; Join Us Now!</title>
-
-		<!-- <link rel="stylesheet" href="<?php //echo base_url('themes/extend/bootstrap.min.css');?>"> -->
-		<link rel="stylesheet" href="<?php echo base_url('themes/extend/form-elements.css');?>">
-        <link rel="stylesheet" href="<?php echo base_url('themes/extend/style.css');?>">
-
-	
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="<?php echo base_url('themes/img/Marshweet.png');?>">
-
-	</head>
-	
-
-    <body>
-
-        <!-- Top content -->
         <div class="top-content">
         	<div class="container">
                 	
@@ -50,7 +24,8 @@
                 <div class="row register-form margin">
 					<div class = "background">
                     <div class="col-sm-4 col-sm-offset-1 margin">
-					
+						<div class="alert alert-success hidden signup-alert">
+                        </div>
 						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
 							<div class="form-group">
 	                    		<label class="sr-only" for="fname">First name</label>
@@ -126,16 +101,3 @@
                 </div>         
         	</div>
         </div>
-
-		<script src="<?php echo base_url('themes/extend/jquery-1.11.1.min.js');?>"></script>
-        
-        
-        <!--[if lt IE 10]>
-			<script src="assets/js/placeholder.js"></script>
-			
-
-        <![endif]-->
-
-    </body>
-
-</html>		
