@@ -8158,7 +8158,7 @@ a.bg-dark:hover {
 	}
 	.pt-lg-4,
 	.py-lg-4 {
-		padding-top: 1rem!important
+		padding-top: 0rem!important
 	}
 	.pr-lg-4,
 	.px-lg-4 {
@@ -8166,7 +8166,7 @@ a.bg-dark:hover {
 	}
 	.pb-lg-4,
 	.py-lg-4 {
-		padding-bottom: 1rem!important
+		padding-bottom: 0rem!important
 	}
 	.pl-lg-4,
 	.px-lg-4 {
