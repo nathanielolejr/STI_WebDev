@@ -26,6 +26,7 @@
       <span class="section-heading-upper">Cool and Awesome</span>
                 <span class="section-heading-lower">Merchandise</span>
               </h2>
+<<<<<<< HEAD
     
 		<div class="container demo-3" style="padding-left: 0px;padding-right: 0px;">
 			<!-- Top Navigation -->
@@ -74,6 +75,36 @@
         </li>
         
 			</ul>
+=======
+              
+              
+              <div class="row">
+                <div class="hover01 column">
+                <div class="content">
+                <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-1.jpg');?>" alt="String Bag" style="width:50%"></figure>
+               <p class="h3font">String Bag</p>             
+            </div>
+        </div>
+
+  <div class="hover01 column">
+    <div class="content">
+      <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-2.jpg');?>" alt="Keychains" style="width:55%"></figure>
+      <p class="h3font">Keychains</p>
+    </div>
+  </div>
+
+  <div class="hover01 column">
+    <div class="content">
+      <figure><img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Tumbler" style="width:100%"></figure>
+      <p class="h3font">Tumbler</p>
+    </div>
+  </div>
+
+  <div class="hover01 column">
+    <div class="content">
+      <figure><img class="img" src="<?php echo base_url('themes/img/mugs-700x400.jpg');?>" alt="Mugs" style="width:97%"></figure>
+      <p class="h3font">Mugs</p>
+>>>>>>> 6a279b085570b06de1e893dfa67bd67eed9c90b0
     </div>
 
 </section>
