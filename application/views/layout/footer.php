@@ -1,6 +1,11 @@
  
+<<<<<<< HEAD
     <footer class="footer text-faded text-center py-5"> 
         
+=======
+    <footer class="footer text-faded text-center py-5">
+
+>>>>>>> aa3b95e8544f1318b715dfe67b3765935761b07c
         <p class="m-0 small">| 2018 Foreign Café and Snack, LLC "Marshweet Café" and logo are registered trademarks of Foreign Marshweet Café | </p>
     </footer>
 
