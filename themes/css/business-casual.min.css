@@ -43,7 +43,7 @@ p {
 }
 .section-heading .section-heading-upper {
  display:block;
- font-size:3rem;
+ font-size:3vh;
  font-weight:400;
 
   
@@ -211,7 +211,7 @@ p {
  font-size:1.2rem
 }
 .footer {
- background-color:;
+ background-color:#C89F6F;
 
 }
 .text-primary {
