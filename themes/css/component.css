@@ -78,18 +78,18 @@
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	text-align: center;
+	text-align: left;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.3s;
+	transition: all 0.4s, opacity 0.3s;
 }
 
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
-	opacity: 1;
+	opacity:1;
 	-webkit-transform: translate(15px, 15px);
 	-moz-transform: translate(15px, 15px);
 	-ms-transform: translate(15px, 15px);
