@@ -587,3 +587,36 @@ width: 100%;
 z-index: 2000;
 }
 
+.dropbtn2 {
+    color: white;
+    padding: 8 px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.show {display:block;}

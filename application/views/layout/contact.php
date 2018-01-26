@@ -60,13 +60,15 @@
                         </h2>
                         <h5 class="info">
                         -Gmail-</br>
-                        <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">marshweetcafe@gmail.com</a></br>
+                        <a href="https://mail.google.com/mail/u/1/#inbox">marshweetcafe@gmail.com</a></br>
                         -Facebook-<br/>
                         <a href="https://www.facebook.com/">Marshweet Cafe</a> 
                         <br>
                         -Instagram-<br/>
                         marshweetcafe<br/>
                         </h5>
+
+                       
               <br>
               <br>  
               <br>

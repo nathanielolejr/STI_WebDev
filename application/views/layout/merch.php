@@ -65,7 +65,7 @@
         
 				<li>
 					<figure>
-						<img class="img" src="<?php echo base_url('themes/img/5-i-turn-coffee-into-code.jpg');?>" alt="Espresso" style="width:100%">
+						<img class="img" src="<?php echo base_url('themes/img/mugs2.jpg');?>" alt="Espresso" style="width:100%">
 						<figcaption>
 							<h3>Mug</h3>
 							<span>Jacob Cummings</span>

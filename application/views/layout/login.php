@@ -27,8 +27,6 @@
                 <div class="row register-form margin">
 					<div class = "background">
                     <div class="col-sm-4 col-sm-offset-1 margin">
-						<div class="alert alert-success hidden signup-alert">
-                        </div>
 						<form role="form" id="signup-form" action="<?php //echo base_url('user/signup');?>" method="post" class="r-form">
 							<div class="form-group">
 	                    		<label class="left" for="fname">First name</label>
