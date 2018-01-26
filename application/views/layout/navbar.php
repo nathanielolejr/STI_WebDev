@@ -5,7 +5,7 @@
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none navigation" href="#" data-name="marshweet-page">Marshweet Café</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none navigation" href="#" data-name="home-page">Marshweet Café</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,8 +16,6 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-
-            
 
             <li class="dropdown2 nav-item px-lg-4" >
               <a onclick="myFunction()" class="dropbtn2 nav-link text-uppercase text-expanded navigation"  href="#">Menu</a>

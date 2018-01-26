@@ -16,7 +16,6 @@
             <div class="row" >
               <section class="page-section about-heading">
       <div class="container">
-
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">

@@ -689,25 +689,29 @@ pre code {
 
 @media (min-width:576px) {
 	.container {
-		max-width: 540px
+		max-width: 540px;
+		background-color:#C89F6F;
 	}
 }
 
 @media (min-width:768px) {
 	.container {
-		max-width: 720px
+		max-width: 720px;
+		background-color:#C89F6F;
 	}
 }
 
 @media (min-width:992px) {
 	.container {
-		max-width: 960px
+		max-width: 960px;
+		background-color:#C89F6F;
 	}
 }
 
 @media (min-width:1200px) {
 	.container {
-		max-width: 1140px
+		max-width: 1140px;
+		background-color:#C89F6F;
 	}
 }
 
@@ -6077,7 +6081,7 @@ a.bg-dark:hover {
 }
 
 .rounded {
-	border-radius: .25rem!important
+	
 }
 
 .rounded-top {
