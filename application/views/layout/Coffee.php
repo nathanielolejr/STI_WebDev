@@ -11,7 +11,7 @@
     <link href="<?php echo base_url('themes/css/component.css'); ?>" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <link rel="stylesheet" type="text/css" href="css/buiness-casual.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/business-casual.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />

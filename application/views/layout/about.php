@@ -1,4 +1,10 @@
-<section class="page-section about-heading">
+<section class="page-section clearfix" id='home-section'>
+      <div class="container">
+        <div class="intro" style="padding-left: 8%;">
+          <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
+          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
+            <div class="row" >
+              <section class="page-section about-heading">
       <div class="container">
         <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="<?php echo base_url('themes/img/About.jpg');?>" alt="">
         <div class="about-heading-content">
@@ -21,9 +27,10 @@
             </div>
           </div>
         </div>
-</section>  
-
-
-
-
-
+      </div>
+    </section>
+  </div>
+</div>
+</div>
+</div>
+</section>

@@ -19,7 +19,7 @@
 				<h2 class="heading to-animate">
         <span class="section-heading-lower">Dessert</span>
         </h2>
-				<p class="to-animate"><span class="firstcharacter">Y</span>ou will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter to give you the buzz you're looking for.</p>
+				<p class="to-animate"><span class="firstcharacter">Y</span>You will never fully satisfy your own desires unless a coffee comes with something sweet - a dessert, made by our best chefs that will melt your tongue in its perfect harmonious blend. Take your obsession to the next level with these jaw-dropping desserts made for coffee lovers. Whether you're layering coffee cream into mousse pots, adding espresso to rich chocolate cake batter to give you the buzz you're looking for.</p>
 				<p class="text-center to-animate"><a href="<?php echo base_url('welcome/Desserts');?>" class="btn btn-primary btn-outline">Explore Our Desserts</a></p>
       </div>
     </div>
