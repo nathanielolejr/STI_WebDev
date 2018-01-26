@@ -12,7 +12,7 @@
       <div class="container">
         <div class="intro" style="padding-left: 8%;">
           <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
-          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
+          <div class="text-center bg-faded3 p-5 col-md-11 rounded" style="">
             <div class="row" >
               <section class="page-section about-heading">
       <div class="container">
@@ -54,12 +54,12 @@
                         </h2>
                         <h5 class="info">
                         -Gmail-</br>
-                        <a href="https://mail.google.com/mail/u/1/#inbox" class="buton">marshweetcafe@gmail.com</a></br>
+                        <a target="_blank" href="https://mail.google.com/mail/u/1/#inbox" class="buton">marshweetcafe@gmail.com</a></br>
                         -Facebook-<br/>
-                        <a href="https://www.facebook.com/" class="buton" >Marshweet Cafe</a> 
+                        <a target="_blank" href="https://www.facebook.com/" class="buton" >Marshweet Cafe</a> 
                         <br>
                         -Instagram-<br/>
-                        <a href="https://www.instagram.com/" class="buton" >marshweetcafe</a><br/>
+                        <a target="_blank" href="https://www.instagram.com/" class="buton" >marshweetcafe</a><br/>
                         </h5>
 
                        

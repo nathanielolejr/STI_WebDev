@@ -43,11 +43,10 @@ p {
 }
 .section-heading .section-heading-upper {
  display:block;
- font-size:5vh;
+ font-size:3vh;
  font-weight:400;
-
-  
 }
+
 .section-heading .section-heading-lower {
  display:block;
  font-size:6vh;
@@ -66,6 +65,10 @@ p {
 .bg-faded2 {
     color: aliceblue;
    }
+   
+.bg-faded3 {
+    background-color:#C89F6F;
+}
 
 #mainNav {
  background-color:#C89F6F;
@@ -93,9 +96,7 @@ p {
   color:#e6a756
  }
 
- .collapse, .navbar-collapse, .ul {
-    opacity: ;
-}
+
 
 }
 .btn-xl {
@@ -104,7 +105,7 @@ p {
  padding-top:1rem;
  padding-bottom:1rem;
  padding-left:2rem;
- padding-right:2rem
+ padding-right:2rem;
 }
 .intro {
  position:relative
@@ -210,8 +211,8 @@ p {
 .address strong {
  font-size:1.2rem
 }
-.footer {
- background-color:#C89F6F;
+/*.footer {
+ background-color:#C89F6F;*/
 
 }
 .text-primary {
@@ -225,7 +226,7 @@ p {
  box-shadow:0 3px 3px 0 rgba(33,37,41,.1)
 }
 .btn-primary {
- background-color:#CEA372;
+ background-color:#ab7735;
  border-color:#CEA372
 }
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover {
@@ -608,7 +609,7 @@ z-index: 2000;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 3;
 }
 
 .dropdown-content2 a {
@@ -630,4 +631,20 @@ z-index: 2000;
 
 .bruh{
     font-size: 4vh;
+}
+.bg-custom {
+  background-color: #C89F6F !important;
+}
+
+.bg-custom {
+  background-color: #C89F6F !important;
+}
+.colorjoinus {
+    color: white;
+
+}
+
+.registered {
+    font-family: 'Lucida Sans';
+    font-size: 1rem;    
 }
