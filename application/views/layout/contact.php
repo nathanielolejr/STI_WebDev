@@ -21,7 +21,7 @@
       <div class="container">
         <div class="intro" style="padding-left: 8%;">
           <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
-          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
+          <div class="text-center bg-faded bg-custom p-5 col-md-11 rounded" style="">
             <div class="row" >
               <div class="container">
                 <div class="intro">
