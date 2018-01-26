@@ -8,19 +8,25 @@
   </style>
 
 <div class="col-md-6">
-            <div>
-                <div class="panel panel-default">
-                  
-                        
-                        </div>
-                        
-                        <div id="map1" class="map">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div>
+      <div class="panel panel-default">                    
+      </div>
+      <div id="map1" class="map">
+      </div>
+  </div>
+</div>
 
+
+<section class="page-section clearfix" id='home-section'>
+      <div class="container">
+        <div class="intro" style="padding-left: 8%;">
+          <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
+          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
+            <div class="row" >
+              <div class="container">
+                <div class="intro">
+
+                  
 <section class="page-section cta">
       <div class="container">
         <div class="row">
@@ -106,5 +112,16 @@
         </div>
       </div>
     </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+  </section>
+
+
+
+
 
   
