@@ -23,8 +23,8 @@
 <section class="page-section cta" style="padding-top: 1rem;">  
 	<body>
       <h2 class="section-heading mb-4">
-      <span class="section-heading-upper">Cool and Awesome</span>
-                <span class="section-heading-lower">Merchandise</span>
+      <span class="section-heading-upper buton2">Cool and Awesome</span>
+                <span class="section-heading-lower buton2">Merchandise</span>
               </h2>
     
 		<div class="container demo-3" style="padding-left: 0px;padding-right: 0px;">
@@ -36,7 +36,7 @@
 						<img src="<?php echo base_url('themes/img/drawstring.jpg');?>" alt="Americano" style="width:100%">
 						<figcaption>
 							<h3>String Bag</h3>
-							<span>Jacob Cummings</span>
+							<span></span>
 						</figcaption>
           </figure>
         </li>
@@ -47,7 +47,7 @@
 						<img class="img" src="<?php echo base_url('themes/img/house keychain.jpg');?>" alt="Afforgato" style="width:100%">
 						<figcaption>
 							<h3>Keychains</h3>
-							<span>Jacob Cummings</span>
+							<span></span>
 						</figcaption>
 					</figure>
         </li>
@@ -58,7 +58,7 @@
 						<img class="img" src="<?php echo base_url('themes/img/Merchandise-3.jpg');?>" alt="Espresso" style="width:100%">
 						<figcaption>
 							<h3>Tumbler</h3>
-							<span>Jacob Cummings</span>
+							<span></span>
 						</figcaption>
 					</figure>
         </li>
@@ -68,7 +68,7 @@
 						<img class="img" src="<?php echo base_url('themes/img/mugs2.jpg');?>" alt="Espresso" style="width:100%">
 						<figcaption>
 							<h3>Mug</h3>
-							<span>Jacob Cummings</span>
+							<span></span>
 						</figcaption>
 					</figure>
         </li>

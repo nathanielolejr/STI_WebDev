@@ -7,20 +7,27 @@
   }
   </style>
 
+<div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                  
+                        
+                        </div>
+                        
+                        <div id="map1" class="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<section class="page-section clearfix" id='home-section'>
+<section class="page-section cta">
       <div class="container">
-        <div class="intro" style="padding-left: 8%;">
-          <!-- <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="<?php //echo base_url('themes/img/home.jpg'); ?>" alt=""> -->
-          <div class="text-center bg-faded p-5 col-md-11 rounded" style="">
-            <div class="row" >
-              <section class="page-section about-heading">
-      <div class="container">
-
-        <div class="about-heading-content">
-          <div class="row">
-            <div class="col-xl-9 col-lg-10 mx-auto">
-            <h2 class="section-heading mb-5">
+      <div class="intro" style="padding-left: 8%;">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
                 <span class="section-heading-lower">Come and Visit</span>
                 <br>
                 <span class="section-heading-lower2">-We're Open-</span>
@@ -50,16 +57,16 @@
               <br>
               <br>
               <h2 class="section-heading mb-5">
-                <span class="section-heading-lower2">-Social Media-</span>
+                <span class="section-heading-lower2">-Email-</span>
                         </h2>
                         <h5 class="info">
                         -Gmail-</br>
-                        <a href="https://mail.google.com/mail/u/1/#inbox" class="buton">marshweetcafe@gmail.com</a></br>
+                        <a href="https://mail.google.com/mail/u/1/#inbox">marshweetcafe@gmail.com</a></br>
                         -Facebook-<br/>
-                        <a href="https://www.facebook.com/" class="buton" >Marshweet Cafe</a> 
+                        <a href="https://www.facebook.com/">Marshweet Cafe</a> 
                         <br>
                         -Instagram-<br/>
-                        <a href="https://www.instagram.com/" class="buton" >marshweetcafe</a><br/>
+                        <a href="https://www.facebook.com/"> marshweetcafe</a><br/>
                         </h5>
 
                        
@@ -95,23 +102,12 @@
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRx4TZWfYjIrlRfLhNTZH5M3ki_UJvmJ4&callback=initMap">
                 </script>
 
-              </p>  
-              
-
-
-
-
-
-
-
-
+              </p>
             </div>
           </div>
         </div>
       </div>
+              </div>
     </section>
-  </div>
-</div>
-</div>
-</div>
-</section>
+
+  

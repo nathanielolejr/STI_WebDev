@@ -159,7 +159,7 @@ p {
   z-index:0
  }
  .about-heading .about-heading-content {
-  margin-top:-5rem;
+  margin-top:-3rem;
   position:relative;
   z-index:1
  }
@@ -590,7 +590,7 @@ z-index: 2000;
 .dropbtn2 {
     color: white;
     padding: 8 px;
-    font-size: 10px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
 }
@@ -620,3 +620,14 @@ z-index: 2000;
 
 
 .show {display:block;}
+
+.buton{
+    color: #000000;
+
+}.buton2{
+    color:white;
+}
+
+.bruh{
+    font-size: 4vh;
+}

@@ -23,10 +23,10 @@
   <section class="page-section cta" style="padding-top: 1rem;">
 	<body>
   <h2 class="section-heading mb-4">
-      <span class="section-heading-upper buton2">Sweet</span>
-								<span class="section-heading-lower buton2">Desserts</span>
-								<br>
-              <a class="buton2 bruh navigation" href="<?php echo base_url('welcome/toppings');?>" >Toppings</a>
+      <span class="section-heading-upper">Cold and Sweet</span>
+                <span class="section-heading-lower">Toppings</span>
+                <br>
+                <a class="buton2 bruh"  href="<?php echo base_url('welcome/shakes');?>">Shakes</a>
               </h2>
 
 		<div class="container demo-1" style="padding-left: 0px;padding-right: 0px;">

@@ -23,8 +23,8 @@
 <section class="page-section cta" style="padding-top: 1rem;">  
 	<body>
       <h2 class="section-heading mb-4">
-      <span class="section-heading-upper">Sweet</span>
-                <span class="section-heading-lower">Desserts</span>
+      <span class="section-heading-upper  buton2">Sweet</span>
+                <span class="section-heading-lower buton2">Desserts</span>
               </h2>
     
 		<div class="container demo-1" style="padding-left: 0px;padding-right: 0px;">

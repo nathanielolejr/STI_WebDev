@@ -64,4 +64,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('layout/Shakes');
 		$this->load->view('layout/footer');
 	}
+
+	public function toppings()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('layout/title');
+		$this->load->view('layout/navbar');
+		$this->load->view('layout/toppings');
+		$this->load->view('layout/footer');
+	}
 }
