@@ -1,7 +1,7 @@
   
 
 <div id="fh5co-about" data-section="about">
-			<div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh2">
+			<div class="fh5co-2col fh5co-bg to-animate-2 fadeIn animated imgh2" style="max-width: 100%">
       </div>
 			<div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
@@ -32,7 +32,8 @@
         <span class="section-heading-lower">Shakes &amp; Toppings</span>
         </h2>
         <p class="to-animate"><span class="firstcharacter">W</span>hen it comes to ice cream treats, our milkshakes are the coolest. They're cold and creamy and the best of all. A delight creamy milkshakes to pick up on those hot days. Sprinkled with toppings that will complete the formula of perfection.  And also you can choose any toppings for your milkshake that will satisfy your taste.</p>
-				<p class="text-center to-animate"><a href="<?php echo base_url('welcome/Shakes');?>" class="btn btn-primary btn-outline">Explore Our Shakes & Toppings</a></p>
+        <p class="text-center to-animate"><a href="<?php echo base_url('welcome/Shakes');?>" class="btn btn-primary btn-outline">Explore Our Shakes & Toppings</a></p>
+        
       </div>
     </div>
     
@@ -41,10 +42,14 @@
       </div>  
     <div class="fh5co-2col fh5co-text">
 				<h2 class="heading to-animate">
+          <br>
         <span class="section-heading-lower">Merchandise</span>
         </h2>
 				<p class="to-animate"><span class="firstcharacter">B</span>uy certain products to get one of this merchandise for free.</p>
-				<p class="text-center to-animate"><a href="<?php echo base_url('welcome/Merch');?>" class="btn btn-primary btn-outline">Explore Our Merchandise</a></p>
+        <p class="text-center to-animate"><a href="<?php echo base_url('welcome/Merch');?>" class="btn btn-primary btn-outline">Explore Our Merchandise</a></p>
+        <br>
+        <br>
+        <br>
       </div>
       
     </div>
