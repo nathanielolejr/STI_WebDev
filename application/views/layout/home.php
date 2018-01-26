@@ -31,7 +31,7 @@
                   <p class="mb-0">Provide a good service with a friendly atmosphere that can be a place to dream as you try to escape the daily stresses of our life and have a comfortable place to meet with your friends. With a growing demand for high-quality gourmet coffee, dessert and great service.</p>
                 </div>
                 <div class="intro-button mx-auto">
-                      <a class="btn btn-primary btn-xl" href="<?php echo base_url('welcome/login');?>">Join Us Now!</a>
+                      <a class="btn btn-primary btn-xl navigation" href="#" data-name="login-page">Join Us Now!</a>
                     </div>
               </div>
             </div>
