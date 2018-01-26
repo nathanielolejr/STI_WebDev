@@ -25,8 +25,8 @@
   <h2 class="section-heading mb-4">
       <span class="section-heading-upper buton2">Sweet</span>
 								<span class="section-heading-lower buton2">Desserts</span>
-								<br>
-              <a class="buton2 bruh navigation" href="<?php echo base_url('welcome/toppings');?>" >Toppings</a>
+								
+             
               </h2>
 
 		<div class="container demo-1" style="padding-left: 0px;padding-right: 0px;">
@@ -61,7 +61,8 @@
 						<div><img src="<?php echo base_url('themes/img/Shake-3.png');?>" alt="Peppermint Mocha" style="width:100%"></div>
 						<figcaption>
 							<h3>Peppermint Mocha</h3>
-							<span>Jacob Cummings</span>
+							<span>A little bit of coffee liqueur transforms a Peppermint Mocha into a festive coffee cocktail.
+								<br>|89 pesos |104 pesos|</span>
 							
 						</figcaption>
 					</figure>

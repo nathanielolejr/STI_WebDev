@@ -23,22 +23,19 @@
   <section class="page-section cta" style="padding-top: 1rem;">
 	<body>
   <h2 class="section-heading mb-4">
-      <span class="section-heading-upper">Cold and Sweet</span>
-                <span class="section-heading-lower">Toppings</span>
-                <br>
-                <a class="buton2 bruh"  href="<?php echo base_url('welcome/shakes');?>">Shakes</a>
-              </h2>
+      <span class="section-heading-upper buton2">Cold and Sweet</span>
+                <span class="section-heading-lower buton2">Toppings</span>
+</h2>
 
 		<div class="container demo-1" style="padding-left: 0px;padding-right: 0px;">
 			<!-- Top Navigation -->
 			<ul class="grid cs-style-1">
 				<li>
 					<figure>
-						<div><img class="img" src="<?php echo base_url('themes/img/Shake-1.jpg');?>" alt="Banana Milkshake" style="width:100%"></div>
+						<div><img class="img" src="<?php echo base_url('themes/img/chocolate2x.jpg');?>" alt="Banana Milkshake" style="width:100%"></div>
 						<figcaption>
-							<h3>Banana Milkshake</h3>
-							<span>Healthy  and delicious way to start your day. Blend of banana mix with milk and honey with cashew nut on top.
-                <br>|75 pesos | 85 pesos | 99 pesos|</span>
+							<h3>Chocolate Bar</h3>
+							
 						
 						</figcaption>
 					</figure>
@@ -46,11 +43,9 @@
         
 				<li>
 					<figure>
-						<div><img class="img" src="<?php echo base_url('themes/img/Shake-2.jpg');?>" alt="Cookies N Cream" style="width:100%" alt="img06"></div>
+						<div><img class="img" src="<?php echo base_url('themes/img/Toppings-2.png');?>" alt="Cookies N Cream" style="width:100%" alt="img06"></div>
 						<figcaption>
-							<h3>Cookies N Cream</h3>
-							<span>Blend Oreos, ice cream, and milk for an indulgent summer milk shake.
-                <br>|99 pesos | 110 pesos|</span>
+							<h3>Banana</h3>
 							
 						</figcaption>
 					</figure>
@@ -58,10 +53,9 @@
         
 				<li>
 					<figure>
-						<div><img src="<?php echo base_url('themes/img/Shake-3.png');?>" alt="Peppermint Mocha" style="width:100%"></div>
+						<div><img src="<?php echo base_url('themes/img/meltedchoco2.jpg');?>" alt="Peppermint Mocha" style="width:100%"></div>
 						<figcaption>
-							<h3>Peppermint Mocha</h3>
-							<span>Jacob Cummings</span>
+							<h3>Melted Chocolate</h3>
 							
 						</figcaption>
 					</figure>
@@ -69,22 +63,18 @@
         
 				<li>
 					<figure>
-						<div><img src="<?php echo base_url('themes/img/Shake-4.jpg');?>" alt="Strawberry Milkshake" style="width:100%"></div>
+						<div><img src="<?php echo base_url('themes/img/Toppings-4.jpg');?>" alt="Strawberry Milkshake" style="width:100%"></div>
 						<figcaption>
-							<h3>Strawberry Milkshake</h3>
-							<span>Start your day off with these creamy strawberry smoothie made of tropical yogurt and mix of fresh strawberry fruit.
-                <br>|110 pesos | 120 pesos | 135 pesos| </span>
-						
+							<h3>Marshmallow</h3>
+							
 					</figure>
         </li>
         
 				<li>
 					<figure>
-						<div><img src="<?php echo base_url('themes/img/Shake-5.jpg');?>" alt="Sweet Potato Almond" style="width:100%"></div>
+						<div><img src="<?php echo base_url('themes/img/Toppings-5.jpg');?>" alt="Sweet Potato Almond" style="width:100%"></div>
 						<figcaption>
-							<h3>Sweet Potato Almond</h3>
-							<span>Taste this delicious creamy Sweet potato shake with almond on top.
-                <br>|75 pesos | 85 pesos | 99 pesos|</span>
+							<h3>Oreo</h3>
 							
 						</figcaption>
 					</figure>
@@ -92,13 +82,31 @@
         
 				<li>
 					<figure>
-						<div><img src="<?php echo base_url('themes/img/Shake-6.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></div>
+						<div><img src="<?php echo base_url('themes/img/Toppings-7.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></div>
 						<figcaption>
-							<h3>Thick Chocolate Milkshake</h3>
-							<span>Enjoy the classic taste of Thick chocolate made of syrup and milk, and ice cream on top.
-                <br>|75 pesos | 85 pesos | 99 pesos|
-              </span>
+							<h3>Stick-O</h3>
 							
+							
+						</figcaption>
+					</figure>
+        </li>
+
+        <li>
+					<figure>
+						<div><img src="<?php echo base_url('themes/img/Toppings-8.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></div>
+						<figcaption>
+							<h3>Strawberry</h3>
+							
+							
+						</figcaption>
+					</figure>
+        </li>
+
+        <li>
+					<figure>
+						<div><img src="<?php echo base_url('themes/img/Toppings-9.jpg');?>" alt="Thick Chocolate Milkshake" style="width:100%"></div>
+						<figcaption>
+							<h3>Vanilla Ice Cream</h3>
 						</figcaption>
 					</figure>
         </li>

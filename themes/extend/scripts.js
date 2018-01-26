@@ -287,6 +287,16 @@ jQuery(document).ready(function() {
 					}
 				});
 				break;
+				case 'toppings-page':
+					$.ajax({
+					type   : 'text',
+					url    : base_url + "welcome/toppings",
+					success: function(response) {
+						$content.html(response);
+						logout_listener();
+					}
+				});
+				break;
 				default:
 				break;
 		

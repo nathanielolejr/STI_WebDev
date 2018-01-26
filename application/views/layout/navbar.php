@@ -24,7 +24,8 @@
               <div id="myDropdown2" class="dropdown-content2">
               <a class="navigation" href="#" data-name="coffee-page">Coffee</a>
               <a class="navigation" href="#" data-name="desserts-page">Desserts</a>
-              <a class="navigation" href="#" data-name="shakes-page">Shakes & Toppings</a>
+              <a class="navigation" href="#" data-name="shakes-page">Shakes</a>
+              <a class="navigation" href="#" data-name="toppings-page">Toppings</a>
               <a class="navigation" href="#" data-name="merchandise-page">Merchandise</a>
             </div>
           </li>
