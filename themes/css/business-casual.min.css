@@ -211,7 +211,7 @@ p {
  font-size:1.2rem
 }
 .footer {
- background-color:#C89F6F;
+ background-color:;
 
 }
 .text-primary {
@@ -558,4 +558,8 @@ z-index: 2000;
 }
 body {
 padding-top: 120px;
+}
+
+.bg-custom {
+ background-color:#C89F6F !important;
 }
