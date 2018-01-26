@@ -211,7 +211,7 @@ p {
  font-size:1.2rem
 }
 .footer {
- background-color:;
+ background-color:#C89F6F;
 
 }
 .text-primary {
@@ -225,7 +225,7 @@ p {
  box-shadow:0 3px 3px 0 rgba(33,37,41,.1)
 }
 .btn-primary {
- background-color:#CEA372;
+ background-color:#ab7735;
  border-color:#CEA372
 }
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover {
@@ -561,5 +561,5 @@ padding-top: 120px;
 }
 
 .bg-custom {
- background-color:#C89F6F !important;
+  background-color: #C89F6F !important;
 }
