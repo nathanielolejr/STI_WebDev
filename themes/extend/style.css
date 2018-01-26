@@ -87,12 +87,10 @@ img { max-width: 100%; }
 .register-form { display: none; }
 
 .r-form { padding-top: 40px; }
-.r-form .form-group { margin-bottom: 25px; }
 .r-form textarea { height: 100px; }
 .r-form .input-error { border-color: #e6a756; }
 
 .l-form { padding-top: 40px; }
-.l-form .form-group { margin-bottom: 25px; }
 .l-form .input-error { border-color: #42c5ea; }
 
 .forms-right-icons .row { padding-bottom: 15px; }

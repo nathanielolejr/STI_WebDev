@@ -29,7 +29,8 @@ class User extends CI_Controller
         array('valid_email' =>'Please enter a Valid Email.',
               'min_length[5]' =>'Username cannot be below 5 characters.',
               'max_length[20]' =>'Username cannot exceed more than 20 characters.'));
-        $this->form_validation->set_rules('password','Password','required');
+        $this->form_validation->set_rules('password','Password','required|min_length[5]', 
+        array('min_length[8]' =>'Password must be 8 characters or above.'));
         $this->form_validation->set_rules('con-password','Password Confirmation','required|matches[password]');
         
        

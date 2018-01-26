@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 				$(this).addClass('active');
 				$('.login-form').fadeOut('fast', function(){
 					$('.show-forms').text('Register');
-					$('.register-form').fadeIn('fast');
+					$('.register-form').css('display','flex');
 					$('span.active').text('Register');
 				});
 			}
@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
     		$('.show-register-form').removeClass('active');
     		$(this).addClass('active');
     		$('.register-form').fadeOut('fast', function(){
-    			$('.login-form').fadeIn('fast');
+    			$('.login-form').css('display','flex');
     		});
     	}
 	});
@@ -46,10 +46,13 @@ jQuery(document).ready(function() {
 				   data: $(this).serialize(),
 				   dataType: 'text',
 				   complete: function(response) {
-					console.log(response.responseText);
+					console.log(response);
 					   if(response.responseText != 'success'){
 						$('div.signup-alert').removeClass('hidden');
 						$('div.signup-alert').html(response.responseText);
+						$('html, body').animate({
+							scrollTop: $('.signup-alert').offset().top
+						}, 500);
 					   }
 					   else{
 						$('.register-form').fadeOut('fast', function(){
